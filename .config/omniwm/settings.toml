@@ -3,21 +3,37 @@ monitorDwindleOverrides = []
 monitorGapOverrides = []
 monitorNiriOverrides = []
 monitorOrientationOverrides = []
-schemaVersion = 3
+schemaVersion = 4
 
 [appearance]
 mode = "dark"
 tabRailAppIcons = false
 
 [borders]
-enabled = false
-width = 5.0
+enabled = true
+width = 3.5
 
 [borders.color]
+alpha = 0.36096938775510207
+blue = 1.0
+green = 1.0
+red = 0.9999960064888
+
+[borders.gradient]
+direction = "topLeftToBottomRight"
+enabled = false
+
+[borders.gradient.end]
 alpha = 1.0
-blue = 0.0
-green = 0.0
-red = 1.0
+blue = 0.7
+green = 1.0
+red = 0.0
+
+[borders.gradient.start]
+alpha = 1.0
+blue = 1.0
+green = 0.4
+red = 0.0
 
 [clipboard]
 historyEnabled = false
@@ -35,11 +51,11 @@ splitWidthMultiplier = 1.0
 useGlobalGaps = true
 
 [focus]
-crossesMonitorAtEdge = false
+crossesMonitorAtEdge = true
 followsMouse = true
-followsWindowToMonitor = false
+followsWindowToMonitor = true
 lockModifier = "off"
-moveCrossesMonitorAtEdge = false
+moveCrossesMonitorAtEdge = true
 moveMouseToFocusedWindow = true
 raiseOnMouseFocus = false
 
@@ -51,33 +67,34 @@ size = 10.0
 bottom = 10.0
 left = 10.0
 right = 10.0
-top = 38.0
+top = 42.0
 
 [general]
-animationsEnabled = false
+animationSpeed = 1.0
+animationsEnabled = true
 defaultLayoutType = "dwindle"
 hotkeysEnabled = true
 hyperKeyModifiers = "Control+Option+Shift+Command"
 ipcEnabled = true
-preventSleepEnabled = true
+preventSleepEnabled = false
 systemHyperTrigger = "None"
 updateChecksEnabled = true
 
 [gestures]
-fingerCount = 4
+fingerCount = 3
 invertDirection = true
 mouseMoveModifierKey = "option"
 mouseResizeModifierKey = "option"
-overviewGestureEnabled = false
-overviewGestureFingerCount = 3
-scrollEnabled = false
+overviewGestureEnabled = true
+overviewGestureFingerCount = 4
+scrollEnabled = true
 scrollModifierKey = "optionShift"
 scrollSensitivity = 5.0
 trackpadScrollStyle = "snap"
 windowGestureSensitivity = 1.0
 windowMoveEnabled = false
 windowMoveFingerCount = 4
-windowResizeEnabled = true
+windowResizeEnabled = false
 windowResizeFingerCount = 4
 workspaceSwipeAxis = "horizontal"
 workspaceSwipeEnabled = true
@@ -94,15 +111,18 @@ enabled = true
 margin = 1
 
 [niri]
-alwaysCenterSingleColumn = false
+alwaysCenterSingleColumn = true
 centerFocusedColumn = "never"
 containerPrimarySpanPresets = [0.3333333333333333, 0.5, 0.6666666666666666]
 defaultContainerPrimarySpan = 0.5
+edgeGaps = true
 infiniteLoop = false
+resizeStepPercent = 5
 singleWindowFit = "fill"
 visibleContainerCount = 2
 
 [overview]
+enabled = true
 invertScrollDirection = false
 matchFocusBorder = true
 mouseScrollSpeed = 1.0
@@ -156,20 +176,27 @@ mode = "macOS"
 
 [statusBar]
 showAppNames = false
+showIcon = true
 showWorkspaceName = false
 useWorkspaceId = false
 
 [workspaceBar]
+autoHide = true
+autoHideHideDelayMilliseconds = 0.0
+autoHideRevealDelayMilliseconds = 0.0
 backgroundOpacity = 0.1
 deduplicateAppIcons = false
-enabled = false
+enabled = true
 excludedBundleIDs = []
-height = 24.0
+height = 40.0
 hideEmptyWorkspaces = false
 hideInNativeFullscreen = false
+hoverPreviewsEnabled = true
 notchActiveZoneWidth = 180.0
 notchMode = "moveBelowMenuBar"
-position = "overlappingMenuBar"
+notificationBadgeRefreshIntervalSeconds = 5.0
+notificationBadges = "off"
+position = "bottom"
 reserveLayoutSpace = false
 revealHoldMilliseconds = 200.0
 revealModifier = "off"
@@ -270,6 +297,30 @@ id = "780D1049-4507-4387-B631-8286B667EE6A"
 layout = "float"
 minHeight = 600.0
 minWidth = 980.0
+
+[[appRules]]
+appNameSubstring = "System Settings"
+bundleId = ""
+id = "99861F6C-8655-4A63-80DA-06E22CA2B650"
+layout = "tile"
+
+[[appRules]]
+appNameSubstring = "Shortcuts"
+bundleId = ""
+id = "41C950FB-9C50-42B4-B0E6-B8F7D9CCCB5B"
+layout = "tile"
+
+[[appRules]]
+appNameSubstring = "Facetime"
+bundleId = ""
+id = "FBBC8533-8370-410E-B671-70B2E710A82E"
+layout = "tile"
+
+[[appRules]]
+appNameSubstring = "Cloudflare WARP"
+bundleId = ""
+id = "716E6269-DD93-4EB7-90FC-1C577112018B"
+layout = "tile"
 
 [[hotkeys]]
 binding = "Unassigned"
@@ -422,6 +473,14 @@ id = "switchWorkspace.8"
 [[hotkeys]]
 binding = "Option+Shift+9"
 id = "moveToWorkspace.8"
+
+[[hotkeys]]
+binding = "Unassigned"
+id = "switchWorkspace.9"
+
+[[hotkeys]]
+binding = "Unassigned"
+id = "moveToWorkspace.9"
 
 [[hotkeys]]
 binding = "Unassigned"
@@ -618,6 +677,10 @@ id = "moveColumnToWorkspace.7"
 [[hotkeys]]
 binding = "Unassigned"
 id = "moveColumnToWorkspace.8"
+
+[[hotkeys]]
+binding = "Unassigned"
+id = "moveColumnToWorkspace.9"
 
 [[hotkeys]]
 binding = "Unassigned"
@@ -985,6 +1048,10 @@ id = "raiseAllFloatingWindows"
 
 [[hotkeys]]
 binding = "Unassigned"
+id = "toggleFloatingFocus"
+
+[[hotkeys]]
+binding = "Unassigned"
 id = "rescueOffscreenWindows"
 
 [[hotkeys]]
@@ -996,8 +1063,16 @@ binding = "Unassigned"
 id = "closeFocusedWindow"
 
 [[hotkeys]]
-binding = "Unassigned"
+binding = "Option+Space"
 id = "openMenuAnywhere"
+
+[[hotkeys]]
+binding = "Unassigned"
+id = "setWindowMark"
+
+[[hotkeys]]
+binding = "Unassigned"
+id = "removeWindowMark"
 
 [[hotkeys]]
 binding = "Unassigned"
@@ -1025,7 +1100,7 @@ id = "toggleSystemStats"
 
 [[workspaces]]
 id = "AD36F001-C57E-41A5-AC1D-DF5249D007F0"
-layoutType = "dwindle"
+layoutType = "niri"
 name = "1"
 
 [workspaces.monitorAssignment]
@@ -1033,7 +1108,7 @@ type = "main"
 
 [[workspaces]]
 id = "454CECD4-5E9D-4ED1-95D7-979D48817F5F"
-layoutType = "dwindle"
+layoutType = "niri"
 name = "2"
 
 [workspaces.monitorAssignment]
@@ -1041,7 +1116,7 @@ type = "main"
 
 [[workspaces]]
 id = "BEB842B5-E894-4791-9FD1-397C3CDD3538"
-layoutType = "dwindle"
+layoutType = "niri"
 name = "3"
 
 [workspaces.monitorAssignment]
@@ -1049,7 +1124,7 @@ type = "main"
 
 [[workspaces]]
 id = "248AA883-2261-4D45-943C-79C0E46A232B"
-layoutType = "dwindle"
+layoutType = "niri"
 name = "4"
 
 [workspaces.monitorAssignment]
@@ -1057,7 +1132,7 @@ type = "main"
 
 [[workspaces]]
 id = "8B8C45D6-CE9E-41D9-BD50-BE4989D5E3DE"
-layoutType = "dwindle"
+layoutType = "niri"
 name = "5"
 
 [workspaces.monitorAssignment]
@@ -1065,7 +1140,7 @@ type = "main"
 
 [[workspaces]]
 id = "2CC4D5FC-9F42-426D-9E44-34929DC571C4"
-layoutType = "dwindle"
+layoutType = "niri"
 name = "6"
 
 [workspaces.monitorAssignment]
@@ -1073,7 +1148,7 @@ type = "main"
 
 [[workspaces]]
 id = "338D6FA9-B56C-4FBA-9EEE-86A5C0800A43"
-layoutType = "dwindle"
+layoutType = "niri"
 name = "7"
 
 [workspaces.monitorAssignment]
@@ -1081,7 +1156,7 @@ type = "main"
 
 [[workspaces]]
 id = "C472ECF1-6784-41D5-B949-3E98DDDF27C3"
-layoutType = "dwindle"
+layoutType = "niri"
 name = "8"
 
 [workspaces.monitorAssignment]
@@ -1089,7 +1164,7 @@ type = "main"
 
 [[workspaces]]
 id = "4F5DD91B-581B-4A38-9D88-AFECBB2EC184"
-layoutType = "dwindle"
+layoutType = "niri"
 name = "9"
 
 [workspaces.monitorAssignment]
@@ -1097,7 +1172,7 @@ type = "main"
 
 [[workspaces]]
 id = "29E80507-177F-4123-BDEA-4F9A457D54C6"
-layoutType = "dwindle"
+layoutType = "niri"
 name = "10"
 
 [workspaces.monitorAssignment]

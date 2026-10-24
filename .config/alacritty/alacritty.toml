@@ -12,7 +12,8 @@ size = 15.0
 family = "SpaceMono Nerd Font"
 
 [window]
-opacity = 0.88
+opacity = 0.3
+blur = true
 decorations = "Buttonless"
 
 [window.padding]

@@ -4,12 +4,8 @@ spacing         = 2
 padding         = 2
 hide_ascii      = false
 separator       = " "
-key_color       = "#F07489"
+key_color       = "#4a7c4e"
 separator_color = "#C6D0F5"
-
-[custom_ascii]
-color           = "#C6D0F5"
-path            = "~/.config/macchina/ascii-cat.txt"
 
 [box]
 border          = "plain"
