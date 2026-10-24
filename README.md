@@ -1,5 +1,5 @@
 
-# Teto MacOS
+# nethil2 MacOS
 
 Made with OmniWM, SketchyBar, JankyBorders, and more...
 
@@ -28,7 +28,7 @@ brew install --cask alacritty omniwm albert \
 
 ```sh
 # clone this repo
-git clone --recurse-submodules https://github.com/iluvgirlswithglasses/dots-macos
+git clone --recurse-submodules https://github.com/pgkyg79f6w-blip/dotfiles
 cd dots-macos
 
 # copy config
