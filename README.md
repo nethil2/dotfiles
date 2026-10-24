@@ -1,4 +1,4 @@
-# Nethil2 MacOs
+# Nethil2 MacOS
 
 This repo is a complete snapshot of my macOS setup so I can recreate it on a new MacBook.
 
