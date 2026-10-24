@@ -52,7 +52,7 @@ brew install --cask alacritty omniwm zen wispr-flow vorssaint \
 ## 3) Clone this repo
 
 ```sh
-git clone --recurse-submodules https://github.com/pgkyg79f6w-blip/dotfiles
+git clone --recurse-submodules https://github.com/nethil2/dotfiles
 cd dotfiles
 ```
 
