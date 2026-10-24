@@ -13,7 +13,7 @@ alt - q      : /opt/homebrew/bin/omniwmctl command close-focused-window
 alt - h : /opt/homebrew/bin/omniwmctl command focus left
 alt - j : /opt/homebrew/bin/omniwmctl command focus down
 alt - k : /opt/homebrew/bin/omniwmctl command focus up
-alt - g : /Users/nethil2/.config/skhd/remove-warp.sh
+alt - g : $HOME/.config/skhd/remove-warp.sh
 alt - l : /opt/homebrew/bin/omniwmctl command focus right
 alt + shift - h : /opt/homebrew/bin/omniwmctl command move left
 alt + shift - j : /opt/homebrew/bin/omniwmctl command move down
