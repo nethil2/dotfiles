@@ -2,6 +2,11 @@
 
 Made with OmniWM, SketchyBar, Alfred and more
 
+![Uploading CleanShot 2026-10-25 at 7.33.49 AM@2x.png…]()
+
+![Uploading CleanShot 2026-10-25 at 7.34.11 AM@2x.png…]()
+
+
 ## Dependencies
 
 You might need to run `brew update` and `brew upgrade` first.
