@@ -1,5 +1,10 @@
 # Nethil2 MacOS
 
+<p align="center">
+  <img src="assets/desktop-1.png" width="49%" />
+  <img src="assets/desktop-2.png" width="49%" />
+</p>
+
 This repo is a complete snapshot of my macOS setup so I can recreate it on a new MacBook.
 
 ## 1) Install Homebrew
