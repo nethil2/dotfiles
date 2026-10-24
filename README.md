@@ -5,7 +5,7 @@
   <img src="assets/desktop-2.png" width="49%" />
 </p>
 
-This repo is a complete snapshot of my macOS setup so I can recreate it on a new MacBook.
+This repo is a complete snapshot of my macOS setup so I (or random people) can recreate it on a new MacBook.
 
 ## 1) Install Homebrew
 
