@@ -1,85 +1,129 @@
-# nethil2 MacOS
+# Nethil2 MacOs
 
-Made with OmniWM, SketchyBar, Alfred and more
+This repo is a complete snapshot of my macOS setup so I can recreate it on a new MacBook.
 
-![Uploading CleanShot 2026-10-25 at 7.33.49 AM@2x.png…]()
-
-![Uploading CleanShot 2026-10-25 at 7.34.11 AM@2x.png…]()
-
-
-## Dependencies
-
-You might need to run `brew update` and `brew upgrade` first.
+## 1) Install Homebrew
 
 ```sh
-xcode-select --install
-
-# Homebrew taps
-brew tap FelixKratz/formulae
-brew tap albertlauncher/albert
-
-# Core CLI tools
-brew install coreutils fish python lua neovim macchina media-control jq \
-  ripgrep fastfetch
-
-# Window management / bar / borders
-brew install koekeishiya/formulae/skhd \
-  FelixKratz/formulae/borders \
-  FelixKratz/formulae/sketchybar
-
-# Monitors / extras
-brew install btop cava yabai opencode
-
-# Casks
-brew install --cask alacritty omniwm \
-  font-space-mono-nerd-font font-gabarito \
-  font-jetbrains-mono-nerd-font font-sketchybar-app-font \
-  microsoft-outlook zen vorssaint wispr-flow
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### Apps not available via Homebrew (install manually)
-
-- **Alfred 5** — https://www.alfredapp.com/
-- **Alcove** — App Store
-- **CleanShot X** — https://cleanshot.com/
-- **Droppy** — App Store
-- **Glance** — App Store
-- **Seam** — App Store
-- **Sound Show 2** — App Store
-- **Alacritty** (if not via brew) — https://alacritty.org/
-
-### Custom helper
-
-SketchyBar's Wi-Fi item uses a small helper at `~/Applications/WifiSSIDHelper.app`. Build it from the Swift sources in `/tmp/WifiSSIDHelper.swift` (or skip the Wi-Fi item).
-
-## Installation
+For Apple Silicon, make sure Homebrew is in your PATH (add to your shell profile if needed):
 
 ```sh
-# clone this repo
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+## 2) Install all packages (formulae + casks)
+
+```sh
+# Taps
+brew tap FelixKratz/formulae
+
+# Formulae
+brew install coreutils fish python lua neovim ripgrep fastfetch \
+  macchina btop cava jq \
+  koekeishiya/formulae/skhd \
+  FelixKratz/formulae/sketchybar \
+  emacs opencode yabai \
+  ca-certificates cask gettext gmp gnutls iniparser json-c \
+  libidn2 libomp libtasn1 libunistring libuv lpeg luajit luv lz4 \
+  media-control mpdecimal nettle oniguruma openssl@4 p11-kit \
+  pcre2 portaudio readline removemacai sqlite tree-sitter unibilium utf8proc xz yyjson zstd
+
+# Casks
+brew install --cask alacritty omniwm zen wispr-flow vorssaint \
+  font-space-mono-nerd-font font-gabarito font-jetbrains-mono-nerd-font font-sketchybar-app-font \
+  microsoft-outlook
+```
+
+### Manual apps (not always in Homebrew)
+
+- Alfred 5 — https://www.alfredapp.com/
+- Alcove — Mac App Store
+- CleanShot X — https://cleanshot.com/
+- Droppy — Mac App Store
+- Glance — Mac App Store
+- Seam — Mac App Store
+- Sound Show 2 — Mac App Store
+- RemoveMacAI — already included via formulae `removemacai` if available
+
+## 3) Clone this repo
+
+```sh
 git clone --recurse-submodules https://github.com/pgkyg79f6w-blip/dotfiles
 cd dotfiles
+```
 
-# copy config
-mkdir -p ~/.config
-cp -r .config/* ~/.config/
+## 4) Copy all configs
 
-# build lua sketchybar
+```sh
+# Link/copy dotfiles to ~/.config
+mkdir -p ~/.config ~/.local/share ~/.local/bin
+cp -r dotfiles/alacritty/* ~/.config/alacritty/ 2>/dev/null || mkdir -p ~/.config/alacritty && cp -r dotfiles/alacritty/* ~/.config/alacritty/
+cp -r dotfiles/btop/* ~/.config/btop/
+cp -r dotfiles/cava/* ~/.config/cava/
+mkdir -p ~/.config/fish
+cp dotfiles/fish/config.fish ~/.config/fish/ 2>/dev/null
+cp -r dotfiles/fish/* ~/.config/fish/ 2>/dev/null
+mkdir -p ~/.config/karabiner
+cp dotfiles/karabiner/karabiner.json ~/.config/karabiner/
+mkdir -p ~/.config/macchina
+cp -r dotfiles/macchina/* ~/.config/macchina/
+mkdir -p ~/.config/omniwm
+cp -r dotfiles/omniwm/* ~/.config/omniwm/
+mkdir -p ~/.config/opencode
+cp -r dotfiles/opencode/* ~/.config/opencode/
+mkdir -p ~/.config/sketchybar
+cp -r dotfiles/sketchybar/* ~/.config/sketchybar/
+mkdir -p ~/.config/skhd
+cp -r dotfiles/skhd/* ~/.config/skhd/
+mkdir -p ~/.config/vicinae
+cp -r dotfiles/vicinae/* ~/.config/vicinae/
+mkdir -p ~/.config/yabai
+cp -r dotfiles/yabai/* ~/.config/yabai/
+```
+
+## 5) Restore app preferences
+
+```sh
+# Alfred
+mkdir -p ~/Library/Application\ Support/Alfred ~/Library/Preferences
+cp dotfiles/alfred/com.runningwithcrayons.Alfred*.plist ~/Library/Preferences/ 2>/dev/null
+cp -r dotfiles/alfred/* ~/Library/Application\ Support/Alfred/ 2>/dev/null
+
+# CleanShot X
+mkdir -p ~/Library/Application\ Support/CleanShot
+cp -r dotfiles/cleanshot/* ~/Library/Application\ Support/CleanShot/ 2>/dev/null
+
+# OmniWM app support (if present)
+mkdir -p ~/Library/Application\ Support/com.barut.OmniWM
+cp -r dotfiles/omniwm-app/* ~/Library/Application\ Support/com.barut.OmniWM/ 2>/dev/null
+
+# Wispr Flow
+mkdir -p ~/Library/Application\ Support/Wispr\ Flow
+cp -r dotfiles/wispr-flow/* ~/Library/Application\ Support/Wispr\ Flow/ 2>/dev/null
+```
+
+## 6) Build deps & start services
+
+```sh
+# SbarLua for SketchyBar
 (git clone https://github.com/FelixKratz/SbarLua.git /tmp/SbarLua && cd /tmp/SbarLua/ && make install && rm -rf /tmp/SbarLua/)
-chmod +x ~/.config/borders/bordersrc ~/.config/sketchybar/sketchybarrc
 
-# run services
+# Make scripts executable
+chmod +x ~/.config/sketchybar/sketchybarrc ~/.config/skhd/*.sh 2>/dev/null
+
+# Start services
 open -a OmniWM
 brew services start sketchybar
-brew services start borders
 skhd --start-service
 ```
 
-- You'd need to grant permissions to OmniWM, SketchyBar, JankyBorders, skhd, and Alfred at **Settings > Privacy & Security > Accessibility**.
-- You'd want to launch them on startup too: **Settings > General > Login Items & Extensions**.
+## 7) Permissions
 
-## Notes
+Grant **Accessibility** access to: OmniWM, SketchyBar, skhd, Alfred, CleanShot X in  
+**System Settings > Privacy & Security > Accessibility**.
 
-- Check [skhd config](./.config/skhd/skhdrc) for hotkeys.
-- Check [fish config](./.config/fish/config.fish) for expected dirs in `$PATH` variables.
-- OmniWM settings live in `~/.config/omniwm/settings.toml`.
-- SketchyBar settings live in `~/.config/sketchybar/`.
+Also add them to **Login Items & Extensions** if you want them on startup.

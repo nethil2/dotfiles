@@ -1,0 +1,38 @@
+{
+  "timestamps": {
+    "added": 1689603078,
+    "modified": 1783595610
+  },
+  "bundleIDs": [
+    "de.chris-grieser.atop"
+  ],
+  "name": "atop",
+  "description": "System Monitoring and Process Management",
+  "codeType": "script",
+  "updatesFeed": {
+    "url": "https://github.com/chrisgrieser/alfred-atop/tags.atom",
+    "state": "W/\"25d52fadfd890b8110de72c46ca01265\""
+  },
+  "links": {
+    "homepage": "https://github.com/chrisgrieser/alfred-atop/",
+    "alfredForum": "https://www.alfredforum.com/topic/20662-atop"
+  },
+  "download": {
+    "latest": {
+      "version": "1.9.3",
+      "url": "https://github.com/alfredapp/gallery-workflows/raw/364d51896c0b94a4d3e33761d8431edc6e67ad69/workflows/chrisgrieser/atop.alfredworkflow",
+      "signature": "V9729mUB4Tg0bxCt1FBgtFJNkWYQH6ioqnDbZQskNZnhpW93z2mBNVzsYMuUT2MPen1viB9X4TtZ6CyhtR+lWbPx42l6TMJM1wqjCWFK9HhDAnf+ZxQ065HQze8HBPuyx+Bkd8rKngT3mQ9b69WVH4j7O8F+Z3GVlgetoe7YrOlh8rjbGjpkHEp8xXSFg0yZOK32FAokBNdZllx+wYB36k9riH2PHgBEnqmLPN7cOfvoWQ1KCtJdbSOa2Hyna0/PQkScPrKzbkVg/ScUxzJtDqxsf3jy3qSqLKch3LLC0H2Xl0kroKdDhx9sIy5jCtRp1TeT1CfiEyC+lOi0VYdWDgB8YulY4coVQZk6qDL28p/J9r3jqtfoaCRGRQX9ny8uNxZRTpo/AYTOSOwvh4Ipu7nP7tLwX702YxcYWBKv0JcmkRBIxubuZAlsdLOQLTjMAi314sYulbkX2dRNdUF0wgdYJxKgGjR5MCin49tiNxu2VK8WWdOQ8fq1YqNC35cZyvK7pB5YShPyDG5R3DrMyJfLWZPY4FXTpEdEjhOmWl684CzntPDaYgzFiYxcTz/JYvflbRMFmpE+Sbfjgu98gQ8+HiXeSRrko/yHL0Ja/EFlOQ0XxwqZAlW7A0QRtAGpEZzvfHOLb1YV/4sHujjElc01PxYYxr3on91EJy2MUms="
+    }
+  },
+  "tags": [
+    "system",
+    "bluetooth",
+    "network",
+    "speed-test"
+  ],
+  "dependencies": {
+    "otherLanguages": [
+      "osascript (jxa)"
+    ]
+  }
+}

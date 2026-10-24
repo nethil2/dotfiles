@@ -1,0 +1,32 @@
+{
+  "timestamps": {
+    "added": 1668722533,
+    "modified": 1759593204
+  },
+  "bundleIDs": [
+    "com.vitorgalvao.alfred.removequarantine"
+  ],
+  "name": "Remove Quarantine",
+  "description": "Delete the quarantine attribute from app bundles and files",
+  "codeType": "script",
+  "updatesFeed": {
+    "url": "https://github.com/vitorgalvao/remove-quarantine-workflow/tags.atom",
+    "state": "W/\"5de988e00ba9edb824fc946bb19e1ac6\""
+  },
+  "links": {
+    "homepage": "https://github.com/vitorgalvao/remove-quarantine-workflow/",
+    "alfredForum": "https://www.alfredforum.com/topic/9577-removequarantine"
+  },
+  "download": {
+    "latest": {
+      "version": "25.1",
+      "url": "https://github.com/alfredapp/gallery-workflows/raw/c30df942292b0b4ec29f5de91057dae6e7b4e768/workflows/vitor/remove-quarantine.alfredworkflow",
+      "signature": "Yt53+Bj4NjU8HaKWZMfpBRhS8R1lmqu8q6+Hv4edpZ1f+5IBbrGGj6l0oI0uj5Fv8PPB81lGREySKlXg3JMhK8KQAJSDwnu94STS5h3/WtdKxgER/vZxG7pkr53vNbh0cWwjcIE/n16gqzFts7Py/gVQ6+8BPMAQAfmuGCawtH+ChTq+OHbPwBM772b+EU85I/UFa+Ost9t9vqpPPT60eXU8Qk7Y3U1dK+Q4sjzHBs/0heSpDgYhyz4T4Sn6jolGQxtiRVbuXNT3Or3PKx6ED6B6oCuOfQs1KdaEuPqK+E1r3sXvjef4dCeRa0Ib1npsuplqHIkVAYsG4uSKkfKeH1lV+I8FhFqHEfLKhL8bPoqMmKKDC1IJF8byLND6HybejuA5L1yvLHWviI1ray7lV6R9Fwi3ypIqogdPwL6hBMCoQ3PxpoIKvNtGlMmSI38/9lcdDVBFis71sI4JTLMzRrYMdeTwcknrRHn9vYNpyqZ1tVWV/syFxh9RO5kdlQx9e3pVmjdz1q43b36eQZFmMNMLM0wj/sxfQdnGOTUKyFzyy5xDgQPq4AOWU63sEfhVWNyKbMGRKM++eRuzvB0CjfHygTUxQn2oh7FN/9yhVz37KvI9IsoEzh6iyilmewrJQa9mI8+OY+/EOfW52bX7/n26fk5jmtWvPLhyFFbBBxc="
+    }
+  },
+  "tags": [
+    "system",
+    "universal-actions"
+  ],
+  "alfredTeamNote": "[File Quarantine](https://developer.apple.com/library/content/releasenotes/Carbon/RN-LaunchServices/index.html) is a macOS security feature and should not be disabled completely. This workflow eases the effort of removing it manually on a case-by-case basis. **Only remove quarantine from files and apps you trust.**"
+}

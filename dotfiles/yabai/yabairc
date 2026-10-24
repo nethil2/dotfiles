@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+# Set the default window layout to float
+yabai -m config layout float
+
+# Completely hide the macOS menu bar (purely cosmetic, blocks clicks)
+yabai -m config menubar_opacity 0.0
+

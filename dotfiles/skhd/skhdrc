@@ -1,0 +1,32 @@
+# App launchers
+alt - return : open -na Alacritty.app
+alt - z      : launchctl setenv MOZ_DISABLE_SAFE_MODE_KEY 1 && open -na zen
+alt - e      : open -a Finder
+alt - r      : open -a "Alfred 5"
+
+# Close focused window
+alt - q      : /opt/homebrew/bin/omniwmctl command close-focused-window
+
+# Screenshot
+
+# Navigation
+alt - h : /opt/homebrew/bin/omniwmctl command focus left
+alt - j : /opt/homebrew/bin/omniwmctl command focus down
+alt - k : /opt/homebrew/bin/omniwmctl command focus up
+alt - g : $HOME/.config/skhd/remove-warp.sh
+alt - l : /opt/homebrew/bin/omniwmctl command focus right
+alt + shift - h : /opt/homebrew/bin/omniwmctl command move left
+alt + shift - j : /opt/homebrew/bin/omniwmctl command move down
+alt + shift - k : /opt/homebrew/bin/omniwmctl command move up
+alt + shift - l : /opt/homebrew/bin/omniwmctl command move right
+
+# Window mode
+alt - f : /opt/homebrew/bin/omniwmctl command toggle-fullscreen
+alt + shift - space : /opt/homebrew/bin/omniwmctl command toggle-focused-window-floating
+
+# Workspace 10 (OmniWM's hotkey schema only goes to .8 / 9 slots)
+alt - 0         : /opt/homebrew/bin/omniwmctl command switch-workspace anywhere 10
+alt + shift - 0 : /opt/homebrew/bin/omniwmctl command move-to-workspace 10
+
+# Reload skhd
+alt + shift - c : skhd --reload

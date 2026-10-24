@@ -1,0 +1,4201 @@
+{
+	"anonymous": {
+		"schemaVersion": 1,
+		"kind": "anonymous",
+		"distinctId": "6f929c8d-f5dd-4abb-9052-cdfffdbed4fc",
+		"fetchedAt": 1792439915076,
+		"flags": {
+			"enable-sync-ws-calendar": {
+				"enabled": true
+			},
+			"android_audio_backend_storage": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"quick-summary-while-refining": {
+				"enabled": false
+			},
+			"proactive-incident-alerts": {
+				"enabled": true
+			},
+			"ios-local-data-policy": {
+				"enabled": true
+			},
+			"ios_auth_handoff_pkce": {
+				"enabled": false
+			},
+			"android_accessibility_recovery_surfacing": {
+				"enabled": true
+			},
+			"android_word_limit_dictation_gate": {
+				"enabled": true
+			},
+			"notetaker-streaming-encode": {
+				"enabled": true
+			},
+			"accessibility-drag-guidance": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"google_play_store_review_nudge_v2": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"backend-auth-handoff-pkce": {
+				"enabled": false
+			},
+			"android-linkedin-apps": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"ios-notetaker-awareness-settings-banner": {
+				"enabled": true
+			},
+			"ios-weekly-word-limit-exp": {
+				"enabled": false
+			},
+			"ios-helium-aa-test": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"notetaker-folder-series-rules": {
+				"enabled": false
+			},
+			"public-api-key-management": {
+				"enabled": false
+			},
+			"android_post_update_recovery": {
+				"enabled": true
+			},
+			"dictation-ab-july28": {
+				"enabled": false
+			},
+			"android_post_onboarding_flow_tips": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"polish": {
+				"enabled": true,
+				"variant": "polish"
+			},
+			"notetaker-hub-ui-improvements": {
+				"enabled": true
+			},
+			"desktop-workos-capable-auth": {
+				"enabled": true
+			},
+			"ios26dot4-switchback-screen": {
+				"enabled": true,
+				"variant": "test",
+				"payload": {
+					"bottom-message": "We wish you didn't have to switch apps to use Flow, but Apple now requires this to activate the microphone."
+				}
+			},
+			"notetaker-l2": {
+				"enabled": false
+			},
+			"notepad-accent-color": {
+				"enabled": true,
+				"payload": "#007a5a"
+			},
+			"internal-data-sharing": {
+				"enabled": false
+			},
+			"desktop-trial-extension": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"dictation-ab-sept18": {
+				"enabled": false
+			},
+			"android_history_text_upload": {
+				"enabled": true
+			},
+			"notetaker-consent-chat": {
+				"enabled": false
+			},
+			"notetaker-tutorial-close": {
+				"enabled": true,
+				"variant": "close-modal"
+			},
+			"cursor-integration": {
+				"enabled": false
+			},
+			"multi-key-shortcut-copy": {
+				"enabled": false
+			},
+			"ask-anything-mcp-hint": {
+				"enabled": true,
+				"variant": "treatment"
+			},
+			"ios-cross-device-onboarding": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"dictation-ab-august13": {
+				"enabled": false
+			},
+			"android_text_insertion_backspacing": {
+				"enabled": true
+			},
+			"android_personalization_styles_telemetry": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"price-experiment-mvp": {
+				"enabled": false
+			},
+			"ios-fallback-opus": {
+				"enabled": false
+			},
+			"meeting-recorder-classical-rescue": {
+				"enabled": false
+			},
+			"android_auth_signal_sentry_telemetry": {
+				"enabled": true
+			},
+			"android_workos_migrate_primary": {
+				"enabled": false
+			},
+			"try-popo-onboarding": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"android-grpc-jwt-freshness": {
+				"enabled": false
+			},
+			"wrong-language-setting-notification": {
+				"enabled": false
+			},
+			"annotation-reminder-dms": {
+				"enabled": true,
+				"payload": {
+					"min_meetings": 1
+				}
+			},
+			"enable-sync-ws-enterprise": {
+				"enabled": true
+			},
+			"ios_workos_migrate_primary": {
+				"enabled": false
+			},
+			"first-meeting-auto-generate": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"shared-dictionary-approval": {
+				"enabled": false
+			},
+			"notetaker-outlook-launch-modal": {
+				"enabled": true,
+				"variant": "default"
+			},
+			"opus-desktop-experiment": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"enable-sync-ws-incident-banner": {
+				"enabled": true
+			},
+			"desktop-workos-session-migration": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"resurrected-user-flow": {
+				"enabled": true,
+				"variant": "resurrected"
+			},
+			"android_tick_time_nudge_read_only": {
+				"enabled": true
+			},
+			"notetaker-refined-speaker-edit": {
+				"enabled": false
+			},
+			"use-candidate-asr": {
+				"enabled": false
+			},
+			"in-app-ai-chatbot-nudge": {
+				"enabled": false
+			},
+			"ios-history-audio-playback": {
+				"enabled": true
+			},
+			"android_workos_renewal": {
+				"enabled": false
+			},
+			"ios-onboarding-try-whispering": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"preread-config": {
+				"enabled": true,
+				"variant": "default-off",
+				"payload": {
+					"enabled": false,
+					"generate_for_internal_meetings": false,
+					"cma_agent_model": "claude-sonnet-5",
+					"cma_reasoning_effort": "low",
+					"cma_agent_iterations": 1
+				}
+			},
+			"first-meeting-notepad-walkthrough": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"re-enable-detection-prompt": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"flow-enterprise-sentry-sample-rates": {
+				"enabled": true,
+				"payload": {
+					"tracesSampleRate": 0.2,
+					"replaysSessionSampleRate": 0.1,
+					"replaysOnErrorSampleRate": 1
+				}
+			},
+			"ax-insertion-verification-android": {
+				"enabled": false
+			},
+			"show-time-savings-in-onboarding": {
+				"enabled": true,
+				"variant": "time-savings"
+			},
+			"rotating-value-prop-copy": {
+				"enabled": true,
+				"variant": "rotation"
+			},
+			"use-opus": {
+				"enabled": false
+			},
+			"wispr-chain-via-aria-web": {
+				"enabled": true
+			},
+			"notetaker-capture-time-placement": {
+				"enabled": false
+			},
+			"grpc-timeouts": {
+				"enabled": true,
+				"variant": "test",
+				"payload": {
+					"commit_timeout_ms": 6000,
+					"ping_timeout_ms": 6000,
+					"android_commit_timeout_ms": 4000,
+					"android_ping_timeout_ms": 2000
+				}
+			},
+			"workos_enabled_webflow": {
+				"enabled": true
+			},
+			"meeting-evaluation-sampler": {
+				"enabled": true
+			},
+			"monthly-to-annual-desktop-nudge": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"ios-new-trial-ended-view": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"attribution-gt-chorus-seeding": {
+				"enabled": true
+			},
+			"meeting-recorder-speaker-relabeler": {
+				"enabled": false
+			},
+			"flowbar-processing": {
+				"enabled": false
+			},
+			"language-picker-walkthrough": {
+				"enabled": false
+			},
+			"notetaker-beta-launch-modal": {
+				"enabled": false
+			},
+			"use-wispr-qwerty": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"ask-skills": {
+				"enabled": false
+			},
+			"desktop-feature-flags-disk-cache": {
+				"enabled": true
+			},
+			"admin-attribution-viewer": {
+				"enabled": false
+			},
+			"onboarding-competitor-import-callout": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"android_boot_start_when_a11y_disabled": {
+				"enabled": true
+			},
+			"zz-acquisition-onboarding-demo": {
+				"enabled": false
+			},
+			"desktop-microphone-quiz": {
+				"enabled": true,
+				"variant": "test-v2"
+			},
+			"notetaker-transcript-romanization-openai": {
+				"enabled": false
+			},
+			"consent-notice-org-dedupe": {
+				"enabled": false
+			},
+			"instruct-mode-experiment": {
+				"enabled": false
+			},
+			"student-referral-challenge": {
+				"enabled": false
+			},
+			"onboarding-calendar-connect-screen-refresh": {
+				"enabled": true,
+				"variant": "new-screen"
+			},
+			"daily-streak-desktop": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"grpc-desktop-rollout": {
+				"enabled": true,
+				"variant": "grpcBaseten",
+				"payload": {
+					"url": "model-v31pl413.grpc.api.baseten.co"
+				}
+			},
+			"android_login_complete_sign_in_gate": {
+				"enabled": true
+			},
+			"android_workos_primary": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"android_five_min_warning": {
+				"enabled": true
+			},
+			"quick-summary-model-config": {
+				"enabled": true,
+				"payload": {
+					"primary": {
+						"provider": "anthropic",
+						"model": "claude-haiku-5-5",
+						"effort": "low"
+					},
+					"fallback": {
+						"provider": "openai",
+						"model": "gpt-6-luna",
+						"effort": "low"
+					}
+				}
+			},
+			"android_dictation_reliability": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"enabled-flag": {
+				"enabled": true
+			},
+			"paste-sound": {
+				"enabled": false
+			},
+			"dictation-post-release-measure": {
+				"enabled": false
+			},
+			"app-deny-list-enforcement": {
+				"enabled": false
+			},
+			"auto-cleanup-v0": {
+				"enabled": false
+			},
+			"notetaker-folder-meeting-rules": {
+				"enabled": false
+			},
+			"wispr-memory": {
+				"enabled": false
+			},
+			"otter-import": {
+				"enabled": true,
+				"payload": {
+					"uploadsPerMinute": 20
+				}
+			},
+			"dictation-silent-start-mic-reopen": {
+				"enabled": false
+			},
+			"android_text_insertion_clipboard": {
+				"enabled": true
+			},
+			"android_bubble_visibility_daily": {
+				"enabled": true,
+				"variant": "full"
+			},
+			"test-new-user-elig-experiment": {
+				"enabled": false
+			},
+			"weekly-word-limits-config": {
+				"enabled": true,
+				"payload": {
+					"schema_version": 1,
+					"defaults": {
+						"ios": {
+							"soft": 550,
+							"hard": 750
+						},
+						"android": {
+							"soft": 1000,
+							"hard": 1500
+						},
+						"desktop": {
+							"soft": 2000,
+							"hard": 5000
+						}
+					},
+					"ended_experiments": [],
+					"enrollment": {
+						"max_account_age_days": 14
+					}
+				}
+			},
+			"defer-updates-while-active": {
+				"enabled": true
+			},
+			"onboarding-meeting-types-page": {
+				"enabled": false
+			},
+			"granola-switch-headline-v1": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"dictation-audio-device-clock": {
+				"enabled": false
+			},
+			"student-plan-free-e2e-test": {
+				"enabled": false
+			},
+			"use-agentic-preread": {
+				"enabled": true
+			},
+			"sentry-transaction-success-rate": {
+				"enabled": true,
+				"payload": {
+					"dictation.lifecycle": 0.01
+				}
+			},
+			"insights-words-corrected-backfill": {
+				"enabled": true
+			},
+			"shift-insert": {
+				"enabled": true
+			},
+			"post-onboarding": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"tiy-onboarding-redesign": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"meeting-recorder": {
+				"enabled": true,
+				"variant": "default-autostart",
+				"payload": {
+					"summaryFeedback": true,
+					"shareMeeting": true,
+					"speakerLlmAttribution": "full-aggressive",
+					"serverAudioRetention": true,
+					"live": "source",
+					"guidedTour": true,
+					"liveTranscriptCounter": false,
+					"searchPopup": false,
+					"confRoomWalkbackReachSeconds": 60,
+					"fusionTuning": {
+						"nativeHealWindowMs": 6000,
+						"ultraHighWindowMs": 2000,
+						"proofGatedUltraHolders": [
+							"zoom",
+							"teams"
+						],
+						"clickProofHolders": [
+							"zoom",
+							"teams"
+						]
+					},
+					"browserLeaveClick": "enabled",
+					"nativeAnchorShadow": true,
+					"identityRestampEnabled": true,
+					"transcriptEditing": true,
+					"bypassCloudSync": true,
+					"calendarNotice": true,
+					"consentChatMessage": false,
+					"consentChatFallback": false,
+					"splitScreen": true,
+					"liveTranslation": true,
+					"shareControls": true,
+					"consentChatMeetLegacyWalk": true,
+					"notetakerBlockedDomainsUiVisible": true,
+					"speechFreshnessEnabled": false,
+					"localAudioRetentionDays": 14,
+					"autoStartNotetaker": true,
+					"autoStartPromptThreshold": 3
+				}
+			},
+			"solo-team-invite-modal": {
+				"enabled": false
+			},
+			"mic-ranked-preferences": {
+				"enabled": true
+			},
+			"internal-meeting-recorder-share": {
+				"enabled": false
+			},
+			"post-short-meeting-calendar-connect-modal": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"linkedin-apps": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"ios-experimental-asr-model": {
+				"enabled": false
+			},
+			"wispr-contacts": {
+				"enabled": true
+			},
+			"notetaker-audio-settings": {
+				"enabled": true
+			},
+			"daily-streak": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"summary-model-comparison": {
+				"enabled": false
+			},
+			"long_dictation_notetaker_prompt": {
+				"enabled": true,
+				"variant": "v1a"
+			},
+			"polish-provider": {
+				"enabled": true,
+				"variant": "fast",
+				"payload": {
+					"provider": {
+						"kind": "race",
+						"deadline_seconds": 0,
+						"providers": [
+							{
+								"provider": {
+									"kind": "openai",
+									"model": "gpt-5-nano"
+								}
+							},
+							{
+								"provider": {
+									"kind": "cerebras",
+									"model": "gpt-oss-120b"
+								}
+							}
+						]
+					}
+				}
+			},
+			"degraded-network-notification": {
+				"enabled": true
+			},
+			"android_monetization": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"grpc-iOS-Rollout": {
+				"enabled": true,
+				"variant": "grpcBaseten",
+				"payload": {
+					"url": "model-v31pl413.grpc.api.baseten.co"
+				}
+			},
+			"android_paste_text_sentry_telemetry": {
+				"enabled": true
+			},
+			"dictation-ab-sept20": {
+				"enabled": false
+			},
+			"android_onboarding_battery_monitor": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"language-picker-retirement-notice": {
+				"enabled": false
+			},
+			"event-loop-blocked-logs": {
+				"enabled": false
+			},
+			"member-self-serve-data-export": {
+				"enabled": true
+			},
+			"ios-onboarding-locked-inbox-zero": {
+				"enabled": true
+			},
+			"android_a11y_ghost_in_app_update": {
+				"enabled": false
+			},
+			"dictation-ab-oct11": {
+				"enabled": false
+			},
+			"email-sign": {
+				"enabled": true,
+				"variant": "control",
+				"payload": 250
+			},
+			"disable-clipboard-restore": {
+				"enabled": false
+			},
+			"homepage-ribbon-download": {
+				"enabled": true,
+				"variant": "download"
+			},
+			"sync-ws-health-gated-polling": {
+				"enabled": true
+			},
+			"team-insights-roi": {
+				"enabled": true
+			},
+			"dictation-long-backlog-recovery": {
+				"enabled": true
+			},
+			"notetaker-retention": {
+				"enabled": false
+			},
+			"try-flow": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"notetaker-multipart": {
+				"enabled": false
+			},
+			"kill-detached-helper": {
+				"enabled": false
+			},
+			"onboarding-product-intent-live-demo": {
+				"enabled": true,
+				"variant": "live-demo"
+			},
+			"ios_workos_capable_auth": {
+				"enabled": false
+			},
+			"android-weekly-word-limit-exp": {
+				"enabled": false
+			},
+			"can-drag-flow-bar": {
+				"enabled": true
+			},
+			"ios_contacts_import": {
+				"enabled": false
+			},
+			"ios-notetaker-my-voice-styles": {
+				"enabled": false
+			},
+			"member-self-serve-account-deletion": {
+				"enabled": true
+			},
+			"ios-onboarding-try-whispering-improvements": {
+				"enabled": true
+			},
+			"wispr-contacts-global-enrichment": {
+				"enabled": true
+			},
+			"edge-proxy": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"ios-onboarding-demo-pip-video": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"audit-logs-ui": {
+				"enabled": true
+			},
+			"referral-invite-team-cta": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"scratchpad": {
+				"enabled": false
+			},
+			"ios-attribution-randomized-order": {
+				"enabled": true
+			},
+			"android_dictation_cap": {
+				"enabled": false
+			},
+			"tiy-onboarding-toasts": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"show-flow-bar-during-meeting": {
+				"enabled": false
+			},
+			"enable-sync-ws-flow-state": {
+				"enabled": true
+			},
+			"activation-nudge-tooltip": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"notetaker-report-inline-transcript": {
+				"enabled": false
+			},
+			"ios-menu-usage-limit-copy": {
+				"enabled": false
+			},
+			"ios_post_onboarding_try_flow_in_apps": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"team-consolidation": {
+				"enabled": true,
+				"variant": "team-consolidation"
+			},
+			"meeting-room-evidence": {
+				"enabled": true,
+				"variant": "control",
+				"payload": {}
+			},
+			"focus-change-detector-app-change": {
+				"enabled": true
+			},
+			"ios-switchback-screen": {
+				"enabled": true,
+				"variant": "test_b"
+			},
+			"android_work_os_enabled": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"workos-primary-returning-password-signin": {
+				"enabled": true
+			},
+			"windows-key-up-simulation": {
+				"enabled": false
+			},
+			"about-yourself-variant": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"notetaker-finalized-recovery": {
+				"enabled": false
+			},
+			"multi-keybind-service": {
+				"enabled": false
+			},
+			"ios-notetaker-ask": {
+				"enabled": true
+			},
+			"notetaker-business-allowed": {
+				"enabled": true
+			},
+			"use-ensemble-model": {
+				"enabled": false
+			},
+			"automations": {
+				"enabled": false
+			},
+			"Flow-State-Generation": {
+				"enabled": false
+			},
+			"dictation-ab-sept15": {
+				"enabled": false
+			},
+			"notetaker-upload-progress": {
+				"enabled": false
+			},
+			"notetaker-folders": {
+				"enabled": true
+			},
+			"ios-time-saved-stats": {
+				"enabled": false
+			},
+			"desktop-weekly-word-limit-exp": {
+				"enabled": false
+			},
+			"android_local_data_retention": {
+				"enabled": false
+			},
+			"ax-surrounding-text-null-fallback-2-android": {
+				"enabled": true
+			},
+			"android_ghost_sentry_telemetry": {
+				"enabled": false
+			},
+			"ios_week_1_streak": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"proxy-geo-routing": {
+				"enabled": true
+			},
+			"enable-sync-ws-voice-profile": {
+				"enabled": true
+			},
+			"personalized-styles-ios": {
+				"enabled": true
+			},
+			"onboarding-shortcut-test-tooltip": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"desktop-reset-tutorial": {
+				"enabled": false
+			},
+			"ios-preserve-live-activity-interruption": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"transforms-personal-profile": {
+				"enabled": false
+			},
+			"ios-turtle-mode": {
+				"enabled": false
+			},
+			"show-first-dictation-notification": {
+				"enabled": true
+			},
+			"notetaker-setup-tray": {
+				"enabled": false
+			},
+			"ios-offline-dictation": {
+				"enabled": false
+			},
+			"online-reconcile-shard-balancing": {
+				"enabled": true
+			},
+			"instruct-mode": {
+				"enabled": false
+			},
+			"desktop-team-leaderboard": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"desktop-individual-past-due-dunning": {
+				"enabled": true
+			},
+			"wiggle-contextual-reminder": {
+				"enabled": false
+			},
+			"notetaker-system-audio-probe": {
+				"enabled": true
+			},
+			"desktop-onboarding": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"android_defer_billing_init": {
+				"enabled": true
+			},
+			"meeting-recorder-windows-acting": {
+				"enabled": false
+			},
+			"android_onboarding_tiy_PTT_revamp": {
+				"enabled": false
+			},
+			"todos": {
+				"enabled": false
+			},
+			"use-staging-backend": {
+				"enabled": false
+			},
+			"vocabulary-pack-onboarding": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"onboarding-redesign": {
+				"enabled": true,
+				"variant": "ptt-first-less-content"
+			},
+			"notetaker-disc-hint": {
+				"enabled": false
+			},
+			"skip-url-search": {
+				"enabled": false
+			},
+			"ios-latest-app-version-test": {
+				"enabled": false
+			},
+			"smart-polling": {
+				"enabled": true
+			},
+			"second-nudge-under-5": {
+				"enabled": true,
+				"variant": "showcase_auto_dismiss"
+			},
+			"android_a11y_bridge_park_unbound": {
+				"enabled": false
+			},
+			"android_text_insertion_v3": {
+				"enabled": false
+			},
+			"onboarding-personalize": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"connectors": {
+				"enabled": false
+			},
+			"notetaker-capture-recovery": {
+				"enabled": true
+			},
+			"onboarding-styles-setup": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"student-plan-free": {
+				"enabled": false
+			},
+			"first-real-meeting-summary-reveal": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"android_bubble_visibility_funnel": {
+				"enabled": false
+			},
+			"elaborations": {
+				"enabled": true,
+				"variant": "no-explanations",
+				"payload": {
+					"explanations": {
+						"summary": false
+					}
+				}
+			},
+			"grpc-http-race": {
+				"enabled": false
+			},
+			"dictation-silent-start-notice": {
+				"enabled": true
+			},
+			"is-async-helper-write-queue-enabled": {
+				"enabled": true
+			},
+			"dictation-ab-oct10": {
+				"enabled": false
+			},
+			"ide-file-names-out-of-ax-context": {
+				"enabled": true
+			},
+			"scratchpad-watcher": {
+				"enabled": false
+			},
+			"notetaker-seeded-tour-card": {
+				"enabled": true,
+				"variant": "treatment"
+			},
+			"pro-team-leaderboard": {
+				"enabled": true
+			},
+			"app-teams-settings": {
+				"enabled": true
+			},
+			"trailing-boundary-nbsp": {
+				"enabled": false
+			},
+			"instruct-models": {
+				"enabled": true,
+				"variant": "v2",
+				"payload": {
+					"classifier": "gpt-5.5",
+					"instruct": "gpt-oss-120b",
+					"modelIsUnsure": "gpt-oss-120b",
+					"settingsUpdates": "gpt-oss-120b"
+				}
+			},
+			"android_mic_permission_sheet_sentry_telemetry": {
+				"enabled": true
+			},
+			"wispr-meeting-identity": {
+				"enabled": false
+			},
+			"summary-prompt-caching": {
+				"enabled": false
+			},
+			"coding-cli-detection": {
+				"enabled": true
+			},
+			"onboarding-language-suggestions": {
+				"enabled": true,
+				"variant": "treatment"
+			},
+			"ios-remove-trial": {
+				"enabled": false
+			},
+			"kill-orphan": {
+				"enabled": true
+			},
+			"stream-text": {
+				"enabled": false
+			},
+			"ios-weekly-summary-push": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"pylon-transcript-report-issues": {
+				"enabled": true
+			},
+			"billing-subscription-watch-enabled": {
+				"enabled": true
+			},
+			"android_login_complete_first_login_property": {
+				"enabled": true
+			},
+			"second-nudge-never-tried": {
+				"enabled": true,
+				"variant": "arm_b"
+			},
+			"notetaker-speaker-voice-playback": {
+				"enabled": false
+			},
+			"scratchpad-cross-device-image-sync": {
+				"enabled": true
+			},
+			"wispr-contacts-internal-crustdata-enrichment": {
+				"enabled": false
+			},
+			"should_sync_notes": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"gpu-crash-guard": {
+				"enabled": true
+			},
+			"ble-mic-ring": {
+				"enabled": false
+			},
+			"android_dictation_signin_gate": {
+				"enabled": false
+			},
+			"ios-updated-intro-screens-v2": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"member-self-serve-usage-data-erasure": {
+				"enabled": true
+			},
+			"rich-text-snippets": {
+				"enabled": true
+			},
+			"pylon-accountless-consumers": {
+				"enabled": true
+			},
+			"styles-notification-experiment": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"nudge-new-users": {
+				"enabled": false
+			},
+			"android_audio_sharing_telemetry": {
+				"enabled": true
+			},
+			"android_a11y_ghost_recovery": {
+				"enabled": false
+			},
+			"android_flow_recovery_job": {
+				"enabled": false
+			},
+			"notetaker-audio-switching": {
+				"enabled": false
+			},
+			"wispr-contacts-crustdata-enrichment": {
+				"enabled": true,
+				"payload": {
+					"personEnrichEnabled": true,
+					"callsPerMinute": 60,
+					"identifyMaxConcurrentJobs": 28,
+					"growthAndEnterpriseEnrichmentEnabled": false
+				}
+			},
+			"department-scoped-dictionary": {
+				"enabled": false
+			},
+			"survey-targeting-7e8ae6085a-custom": {
+				"enabled": true
+			},
+			"enable-sync-ws-meetings": {
+				"enabled": true
+			},
+			"push-to-talk-ios": {
+				"enabled": false
+			},
+			"pylon-queued-member-removals": {
+				"enabled": true
+			},
+			"ios-setup-styles-push": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"dictation-ab-sept24": {
+				"enabled": false
+			},
+			"android_auth_storage_sentry_telemetry": {
+				"enabled": true
+			},
+			"notetaker-microsoft-calendar": {
+				"enabled": true
+			},
+			"insights-heatmap-incremental-fetch-desktop": {
+				"enabled": true
+			},
+			"enterprise-scratchpad-control": {
+				"enabled": false
+			},
+			"remote-viewer-paste": {
+				"enabled": false
+			},
+			"android_screen_unlock_recovery": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"my-voice": {
+				"enabled": false
+			},
+			"posthog-migration-test": {
+				"enabled": false
+			},
+			"windows-shortcut-masking-v2": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"effective-language-picker": {
+				"enabled": true
+			},
+			"grpc_client_ios": {
+				"enabled": false
+			},
+			"style-personalization": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"android_disable_connectivity_manager": {
+				"enabled": true
+			},
+			"notetaker-start-cta-experiment": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"post-first-meeting-summary-modal": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"android_dictation_journey_sentry_telemetry": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"notetaker-windows": {
+				"enabled": false
+			},
+			"extension-system": {
+				"enabled": false
+			},
+			"team-insights": {
+				"enabled": true
+			},
+			"ios_workos_primary": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"enable-sync-ws-notifications": {
+				"enabled": true
+			},
+			"android_dictation_start_latency": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"ios-intro-screens-v2-assignment": {
+				"enabled": false
+			},
+			"mcp-login-workos-capable": {
+				"enabled": false
+			},
+			"payload-flag": {
+				"enabled": true,
+				"payload": {
+					"answer": 42,
+					"company": "Flow",
+					"success": true,
+					"nested": {
+						"layer": 1,
+						"nested": {
+							"lastLayer": true,
+							"firstLayer": false
+						}
+					}
+				}
+			},
+			"multi-step-try-dictate-ios": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"ios-attribution-inline-other": {
+				"enabled": true
+			},
+			"auto-detect-instruct-mode": {
+				"enabled": false
+			},
+			"auto-polish-on-short-text": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"android-notetaker-awareness-settings-banner": {
+				"enabled": false
+			},
+			"granola-import": {
+				"enabled": true,
+				"payload": {
+					"mcpRateLimitPerMinute": 40,
+					"mcpBurstCapacity": 50,
+					"mcpRefillPerMinute": 6
+				}
+			},
+			"android_onboarding_battery_screen": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"desktop-deeplink-device-code-enforce": {
+				"enabled": false
+			},
+			"data-export-streamed-upload": {
+				"enabled": true
+			},
+			"notetaker-sidebar-checklist": {
+				"enabled": true,
+				"variant": "treatment"
+			},
+			"notetaker-airpods-audio-diagnostics": {
+				"enabled": false
+			},
+			"ios-first-dictation-congrats-push": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"notetaker-recovery-modal": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"enable-sync-ws-notes": {
+				"enabled": true
+			},
+			"smart-format-mini-success": {
+				"enabled": false
+			},
+			"notetaker-tutorial-intro": {
+				"enabled": true,
+				"variant": "short-intro"
+			},
+			"tiy-hold-hotkey-modal": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"enable-sync-ws": {
+				"enabled": true
+			},
+			"disable-profiling": {
+				"enabled": true
+			},
+			"auto-triage-reported-meetings": {
+				"enabled": true
+			},
+			"voice-profile-onboarding-page": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"ios_notetaker_network_telemetry": {
+				"enabled": false
+			},
+			"remove-desktop-trial-backstop": {
+				"enabled": true
+			},
+			"logitech-actions": {
+				"enabled": false
+			},
+			"hinglish-picker-note": {
+				"enabled": false
+			},
+			"ios-helium-paywall": {
+				"enabled": false
+			},
+			"team-invite-onboarding": {
+				"enabled": true,
+				"variant": "invite-onboarding"
+			},
+			"first-summary-auto-open": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"mouse-flow": {
+				"enabled": true
+			},
+			"android_background_session_resume": {
+				"enabled": true
+			},
+			"notetaker-enterprise-cloud-sync-bypass": {
+				"enabled": true,
+				"variant": "bypass"
+			},
+			"ip-allowlist-android-enabled": {
+				"enabled": false
+			},
+			"cloud-sync": {
+				"enabled": true
+			},
+			"notetaker-seat-controls": {
+				"enabled": false
+			},
+			"ios-notetaker-auto-generate-note-titles": {
+				"enabled": false
+			},
+			"mcp-server": {
+				"enabled": false
+			},
+			"network-policy-block-notification": {
+				"enabled": false
+			},
+			"preread-feedback": {
+				"enabled": false
+			},
+			"ios-polish": {
+				"enabled": false
+			},
+			"onboarding-microphone-enforcement": {
+				"enabled": false
+			},
+			"notetaker-chat-config": {
+				"enabled": true,
+				"variant": "default",
+				"payload": {
+					"l2": {
+						"fallback": {
+							"kind": "anthropic_messages",
+							"model": "claude-sonnet-5-5",
+							"effort": "low"
+						},
+						"primary": {
+							"kind": "openai_responses",
+							"model": "gpt-6-luna",
+							"reasoning": "none"
+						}
+					},
+					"drawer": {
+						"fallback": {
+							"kind": "anthropic_messages",
+							"model": "claude-sonnet-5-5",
+							"effort": "low"
+						},
+						"primary": {
+							"kind": "openai_responses",
+							"model": "gpt-6-luna",
+							"reasoning": "none"
+						}
+					}
+				}
+			},
+			"under5-post-meeting-banner": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"android_accessibility_cold_start_recovery": {
+				"enabled": true
+			},
+			"android-page-testimonials-v2": {
+				"enabled": true,
+				"variant": "slider"
+			},
+			"dictation-transcript-incomplete-notice": {
+				"enabled": false
+			},
+			"new-insights-and-voice-profile": {
+				"enabled": true,
+				"variant": "insights"
+			},
+			"post-onboarding-auto-open": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"ios-disable-opus": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"pylon-queued-issue-enrichment": {
+				"enabled": true
+			},
+			"android_dictation_instant_start": {
+				"enabled": false
+			},
+			"org-insights": {
+				"enabled": false
+			},
+			"attribution-items": {
+				"enabled": true,
+				"payload": [
+					{
+						"id": "word of mouth",
+						"label": "",
+						"title": "Friend / Colleague",
+						"secondaryAttributes": null
+					},
+					{
+						"id": "youtube",
+						"label": "Which YouTuber?",
+						"title": "YouTube",
+						"secondaryAttributes": [
+							{
+								"id": "unbox_therapy",
+								"title": "Unbox Therapy"
+							},
+							{
+								"id": "better_ideas",
+								"title": "Better Ideas"
+							},
+							{
+								"id": "casual_finance",
+								"title": "Casual Finance"
+							},
+							{
+								"id": "appletrack",
+								"title": "AppleTrack"
+							},
+							{
+								"id": "legaleagle",
+								"title": "LegalEagle"
+							},
+							{
+								"id": "ad",
+								"title": "An ad"
+							},
+							{
+								"id": "other",
+								"title": "Other"
+							}
+						]
+					},
+					{
+						"id": "instagram",
+						"label": "Who on Instagram?",
+						"title": "Instagram",
+						"secondaryAttributes": [
+							{
+								"id": "smart_nonsense",
+								"title": "Smart Nonsense"
+							},
+							{
+								"id": "mytechceo",
+								"title": "MyTechCEO"
+							},
+							{
+								"id": "varun_mayya",
+								"title": "Varun Mayya"
+							},
+							{
+								"id": "raj_shamani",
+								"title": "Raj Shamani"
+							},
+							{
+								"id": "ali_abdaal",
+								"title": "Ali Abdaal"
+							},
+							{
+								"id": "ad",
+								"title": "An ad"
+							},
+							{
+								"id": "other",
+								"title": "Other"
+							}
+						]
+					},
+					{
+						"id": "tiktok",
+						"label": "Who on TikTok?",
+						"title": "TikTok",
+						"secondaryAttributes": [
+							{
+								"id": "ali_abdaal",
+								"title": "Ali Abdaal"
+							},
+							{
+								"id": "folasade_daini",
+								"title": "Folasade Daini"
+							},
+							{
+								"id": "mytechceo",
+								"title": "MyTechCEO"
+							},
+							{
+								"id": "woman_engineer",
+								"title": "Woman Engineer (Zara)"
+							},
+							{
+								"id": "smart_nonsense",
+								"title": "Smart Nonsense"
+							},
+							{
+								"id": "ad",
+								"title": "An ad"
+							},
+							{
+								"id": "other",
+								"title": "Other"
+							}
+						]
+					},
+					{
+						"id": "linkedin",
+						"label": "Who on LinkedIn?",
+						"title": "LinkedIn",
+						"secondaryAttributes": [
+							{
+								"id": "charlie_hills",
+								"title": "Charlie Hills"
+							},
+							{
+								"id": "jean_kang",
+								"title": "Jean Kang"
+							},
+							{
+								"id": "zach_wilson",
+								"title": "Zach Wilson"
+							},
+							{
+								"id": "ruben_hassid",
+								"title": "Ruben Hassid"
+							},
+							{
+								"id": "sundas_khalid",
+								"title": "Sundas Khalid"
+							},
+							{
+								"id": "ad",
+								"title": "An ad"
+							},
+							{
+								"id": "other",
+								"title": "Other"
+							}
+						]
+					},
+					{
+						"id": "twitter",
+						"title": "X / Twitter",
+						"label": "",
+						"secondaryAttributes": null
+					},
+					{
+						"id": "facebook",
+						"title": "Facebook",
+						"label": "",
+						"secondaryAttributes": null
+					},
+					{
+						"id": "podcast",
+						"label": "Which podcast?",
+						"title": "Podcast",
+						"secondaryAttributes": [
+							{
+								"id": "trailblazers",
+								"title": "Trailblazers"
+							},
+							{
+								"id": "mark_manson",
+								"title": "Mark Manson"
+							},
+							{
+								"id": "all_the_hacks",
+								"title": "All the Hacks"
+							},
+							{
+								"id": "lex_fridman",
+								"title": "Lex Fridman"
+							},
+							{
+								"id": "doac",
+								"title": "Steven Bartlett (Diary of a CEO)"
+							},
+							{
+								"id": "other",
+								"title": "Other"
+							}
+						]
+					},
+					{
+						"id": "newsletter",
+						"label": "Which newsletter?",
+						"title": "Newsletter",
+						"secondaryAttributes": [
+							{
+								"id": "the_neuron",
+								"title": "The Neuron"
+							},
+							{
+								"id": "tldr",
+								"title": "TLDR"
+							},
+							{
+								"id": "taaft",
+								"title": "There's An AI For That"
+							},
+							{
+								"id": "open_source_ceo",
+								"title": "Open Source CEO (Bill Kerr)"
+							},
+							{
+								"id": "superhuman_ai",
+								"title": "Superhuman AI"
+							},
+							{
+								"id": "other",
+								"title": "Other"
+							}
+						]
+					},
+					{
+						"id": "course",
+						"title": "Course / Webinar",
+						"label": "Which one?",
+						"secondaryAttributes": [
+							{
+								"id": "outskill",
+								"title": "Outskill / Vaibhav Sisinty"
+							},
+							{
+								"id": "be10x",
+								"title": "Be10x"
+							},
+							{
+								"id": "other",
+								"title": "Other"
+							}
+						]
+					},
+					{
+						"id": "article",
+						"label": "Which article?",
+						"title": "Article / News",
+						"secondaryAttributes": [
+							{
+								"id": "The Economic Times of India",
+								"title": "The Economic Times of India"
+							},
+							{
+								"id": "Computerworld",
+								"title": "Computerworld"
+							},
+							{
+								"id": "Wall Street Journal",
+								"title": "Wall Street Journal"
+							},
+							{
+								"id": "TechCrunch",
+								"title": "TechCrunch"
+							},
+							{
+								"id": "AndroidPolice",
+								"title": "AndroidPolice"
+							},
+							{
+								"id": "other",
+								"title": "Other"
+							}
+						]
+					},
+					{
+						"id": "search_engine",
+						"label": "Which search engine?",
+						"title": "Search engine",
+						"secondaryAttributes": [
+							{
+								"id": "google",
+								"title": "Google"
+							},
+							{
+								"id": "bing",
+								"title": "Bing"
+							},
+							{
+								"id": "duckduckgo",
+								"title": "DuckDuckGo"
+							},
+							{
+								"id": "brave_search",
+								"title": "Brave Search"
+							},
+							{
+								"id": "yahoo",
+								"title": "Yahoo"
+							},
+							{
+								"id": "other",
+								"title": "Other"
+							}
+						]
+					},
+					{
+						"id": "ai_chat",
+						"label": "Which chat app?",
+						"title": "AI chat",
+						"secondaryAttributes": [
+							{
+								"id": "chatgpt",
+								"title": "ChatGPT"
+							},
+							{
+								"id": "claude",
+								"title": "Claude"
+							},
+							{
+								"id": "perplexity",
+								"title": "Perplexity"
+							},
+							{
+								"id": "gemini",
+								"title": "Gemini"
+							},
+							{
+								"id": "copilot",
+								"title": "Copilot"
+							},
+							{
+								"id": "other",
+								"title": "Other"
+							}
+						]
+					},
+					{
+						"id": "other",
+						"label": "Please specify",
+						"title": "Other",
+						"secondaryAttributes": "other"
+					}
+				]
+			},
+			"ios-multi-step-try-dictation": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"android_launch_remote_config": {
+				"enabled": true,
+				"payload": {
+					"config_version": "2.5.2",
+					"force_update_version": "2.5.2"
+				}
+			},
+			"is-audio-interruption-monitoring-enabled": {
+				"enabled": true
+			},
+			"instruct-internal-data-sharing": {
+				"enabled": false
+			},
+			"first-real-meeting-email": {
+				"enabled": true
+			},
+			"ios_work_os_enabled": {
+				"enabled": false
+			},
+			"ios-notetaker-pre-sign-in": {
+				"enabled": false
+			},
+			"localization-framework": {
+				"enabled": true,
+				"variant": "control",
+				"payload": [
+					"de",
+					"it",
+					"es",
+					"pt"
+				]
+			},
+			"android-weekly-summary-push": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"nested-selected-text-v2": {
+				"enabled": false
+			},
+			"hub-top-apps": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"notetaker-controls-enterprise": {
+				"enabled": true
+			},
+			"meeting-refine-transcription-provider": {
+				"enabled": false
+			},
+			"ax-disable-focus-node-resolution-android": {
+				"enabled": true
+			},
+			"student-tailored": {
+				"enabled": true
+			},
+			"ios-keyboard-revamp": {
+				"enabled": false
+			},
+			"android_workos_capable_auth": {
+				"enabled": false
+			},
+			"jabra-wear-detection": {
+				"enabled": false
+			},
+			"dictionary-phrase-learning": {
+				"enabled": false
+			},
+			"department-scoped-snippets": {
+				"enabled": false
+			},
+			"system-alert-identification": {
+				"enabled": true
+			},
+			"instruct-voice": {
+				"enabled": false
+			},
+			"enable-sync-ws-preferences": {
+				"enabled": true
+			},
+			"ios_onboarding_install_keyboard_demo_pip": {
+				"enabled": false
+			},
+			"first-meeting-nudge-copy-test": {
+				"enabled": true,
+				"variant": "notes-persist"
+			},
+			"android_text_insertion_ime_reacquire": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"never-store-usage-outbox": {
+				"enabled": true
+			},
+			"notetaker-consent-confirmation": {
+				"enabled": false
+			},
+			"june-2026-dictionary-fixes": {
+				"enabled": true,
+				"variant": "treatment"
+			},
+			"note-taker-coming-soon": {
+				"enabled": true
+			},
+			"grpc-auth-token-refresh": {
+				"enabled": true
+			},
+			"notetaker-transcript-romanization": {
+				"enabled": true
+			},
+			"ios-linkedin-apps": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"dictation-ab-expt": {
+				"enabled": true,
+				"payload": {
+					"feature_flag_key": "dictation-ab-oct11"
+				}
+			},
+			"test-with-external-users": {
+				"enabled": false
+			},
+			"sampling-rate": {
+				"enabled": true,
+				"payload": 0.0001
+			},
+			"auto-add-to-dict-sound": {
+				"enabled": false
+			},
+			"notetaker-incremental-encode": {
+				"enabled": true
+			},
+			"dark-mode": {
+				"enabled": true
+			},
+			"ios-first-dictation-nudge-push": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"dictation-ab-june29": {
+				"enabled": false
+			},
+			"enable-sync-ws-subscription": {
+				"enabled": true
+			},
+			"macos-27-panel-nonactivation": {
+				"enabled": true
+			},
+			"notetaker-drawer-hover-open": {
+				"enabled": false
+			},
+			"remote-notifications": {
+				"enabled": true
+			},
+			"show-intelligence-in-tiy": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"windows-caps-lock-shortcut": {
+				"enabled": true,
+				"variant": "caps_lock_choice"
+			},
+			"failed-paste-notification": {
+				"enabled": true
+			},
+			"trial-page-redesign": {
+				"enabled": true,
+				"variant": "redesign"
+			},
+			"ios_persistence_telemetry": {
+				"enabled": false
+			},
+			"web-onboarding-experiment": {
+				"enabled": true,
+				"variant": "small"
+			},
+			"opus-eu-asia-experiment-v2": {
+				"enabled": false
+			},
+			"gamification-stats-unlock": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"product-aware-onboarding": {
+				"enabled": true
+			},
+			"slack-tagging": {
+				"enabled": false
+			},
+			"android_onboarding_language_suggestions": {
+				"enabled": false
+			},
+			"android_pip_onboarding_accessibility": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"ios-notetaker-search": {
+				"enabled": true
+			},
+			"ios-desktop-download-nudge-home-card": {
+				"enabled": false
+			},
+			"android-attribution-inline-other": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"ios-kb-enable-debug-options": {
+				"enabled": false
+			},
+			"ios-onboarding-desktop-download": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"ios26": {
+				"enabled": true
+			},
+			"dictation-ab-oct7": {
+				"enabled": false
+			},
+			"domain-capture": {
+				"enabled": false
+			},
+			"wispr-contacts-freemail-enrichment": {
+				"enabled": false
+			},
+			"ios-kb-debug-log": {
+				"enabled": false
+			},
+			"ios26-default-styles": {
+				"enabled": true,
+				"variant": "test",
+				"payload": {
+					"animation": "variantA"
+				}
+			},
+			"gen-z-style": {
+				"enabled": false
+			},
+			"post-onboarding-auto-enable": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"android_pip_accessibility_delay": {
+				"enabled": true,
+				"payload": {
+					"video_default_ms": 2000,
+					"recovery_default_ms": 700,
+					"hard_cap_ms": 3500,
+					"video_overrides": {
+						"samsung": 2500,
+						"xiaomi": 2500,
+						"oneplus": 2000
+					}
+				}
+			}
+		}
+	},
+	"identified": {
+		"schemaVersion": 1,
+		"kind": "identified",
+		"distinctId": "561b3a61-3c4d-4694-8c3c-f8ef7b2fb285",
+		"fetchedAt": 1792820052212,
+		"flags": {
+			"notetaker-folder-series-rules": {
+				"enabled": false
+			},
+			"onboarding-meeting-types-page": {
+				"enabled": false
+			},
+			"ios-setup-styles-push": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"opus-eu-asia-experiment-v2": {
+				"enabled": false
+			},
+			"ios-notetaker-awareness-settings-banner": {
+				"enabled": true
+			},
+			"ios-history-audio-playback": {
+				"enabled": true
+			},
+			"ios-notetaker-auto-generate-note-titles": {
+				"enabled": false
+			},
+			"google_play_store_review_nudge_v2": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"onboarding-microphone-enforcement": {
+				"enabled": false
+			},
+			"force-local-data-store-enterprise": {
+				"enabled": false
+			},
+			"notetaker-transcript-romanization-openai": {
+				"enabled": false
+			},
+			"notetaker-windows": {
+				"enabled": false
+			},
+			"notetaker-speaker-voice-playback": {
+				"enabled": false
+			},
+			"ios-local-data-policy": {
+				"enabled": true
+			},
+			"daily-streak-desktop": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"transforms-personal-profile": {
+				"enabled": false
+			},
+			"ax-disable-focus-node-resolution-android": {
+				"enabled": true
+			},
+			"ios-experimental-asr-model": {
+				"enabled": false
+			},
+			"dictation-transcript-incomplete-notice": {
+				"enabled": false
+			},
+			"notetaker-hipaa-coexistence": {
+				"enabled": false
+			},
+			"ios_persistence_telemetry": {
+				"enabled": false
+			},
+			"pylon-accountless-consumers": {
+				"enabled": true
+			},
+			"mcp-server": {
+				"enabled": false
+			},
+			"ios-onboarding-demo-pip-video": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"new-insights-and-voice-profile": {
+				"enabled": true,
+				"variant": "insights"
+			},
+			"android_boot_start_when_a11y_disabled": {
+				"enabled": true
+			},
+			"meeting-refine-evaluation-provider-runs": {
+				"enabled": true
+			},
+			"remove-desktop-trial-backstop": {
+				"enabled": true
+			},
+			"notetaker-notes-ready-push": {
+				"enabled": false
+			},
+			"dictation-ab-july28": {
+				"enabled": false
+			},
+			"wrong-language-setting-notification": {
+				"enabled": false
+			},
+			"onboarding-product-intent-live-demo": {
+				"enabled": true,
+				"variant": "live-demo"
+			},
+			"use-wispr-qwerty": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"font-size-body-sm-v2": {
+				"enabled": false
+			},
+			"android_a11y_bridge_park_unbound": {
+				"enabled": true
+			},
+			"android_workos_capable_auth": {
+				"enabled": false
+			},
+			"android_dictation_signin_gate": {
+				"enabled": false
+			},
+			"use-agentic-preread": {
+				"enabled": true
+			},
+			"data-export-streamed-upload": {
+				"enabled": true
+			},
+			"notetaker-recipient-action-items": {
+				"enabled": false
+			},
+			"notetaker-outlook-launch-modal": {
+				"enabled": true,
+				"variant": "default"
+			},
+			"zz-acquisition-onboarding-demo": {
+				"enabled": false
+			},
+			"android_workos_renewal": {
+				"enabled": false
+			},
+			"onboarding-shortcut-test-tooltip": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"notetaker-start-cta-experiment": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"Maestro-Users": {
+				"enabled": false
+			},
+			"push-to-talk-ios": {
+				"enabled": false
+			},
+			"product-aware-onboarding": {
+				"enabled": true
+			},
+			"notepad-accent-color": {
+				"enabled": true,
+				"payload": "#007a5a"
+			},
+			"notetaker-sidebar-checklist": {
+				"enabled": true,
+				"variant": "treatment"
+			},
+			"wispr-memory": {
+				"enabled": false
+			},
+			"desktop-deeplink-device-code-enforce": {
+				"enabled": false
+			},
+			"grpc-timeouts": {
+				"enabled": true,
+				"variant": "test",
+				"payload": {
+					"commit_timeout_ms": 6000,
+					"ping_timeout_ms": 6000,
+					"android_commit_timeout_ms": 4000,
+					"android_ping_timeout_ms": 2000
+				}
+			},
+			"auto-add-to-dict-sound": {
+				"enabled": false
+			},
+			"daily-streak": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"try-popo-onboarding": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"insights-words-corrected-backfill": {
+				"enabled": true
+			},
+			"mouse-flow": {
+				"enabled": true
+			},
+			"use-ensemble-model": {
+				"enabled": false
+			},
+			"android_screen_unlock_recovery": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"jabra-wear-detection": {
+				"enabled": false
+			},
+			"android_workos_migrate_primary": {
+				"enabled": false
+			},
+			"effective-language-picker": {
+				"enabled": true
+			},
+			"tiy-onboarding-redesign": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"enable-sync-ws-flow-state": {
+				"enabled": true
+			},
+			"notetaker-live-relay-mechanism": {
+				"enabled": true,
+				"variant": "soniox_direct"
+			},
+			"android_dictation_journey_sentry_telemetry": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"post-onboarding-auto-open": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"ask-anything-mcp-hint": {
+				"enabled": true,
+				"variant": "treatment"
+			},
+			"enable-sync-ws-enterprise": {
+				"enabled": true
+			},
+			"first-summary-auto-open": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"tiy-practice-refresh": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"android_post_update_recovery": {
+				"enabled": true
+			},
+			"notetaker-refined-speaker-edit": {
+				"enabled": true
+			},
+			"show-flow-bar-during-meeting": {
+				"enabled": false
+			},
+			"dictation-ab-expt": {
+				"enabled": true,
+				"payload": {
+					"feature_flag_key": "dictation-ab-oct11"
+				}
+			},
+			"notetaker-finalized-recovery": {
+				"enabled": false
+			},
+			"wispr-contacts": {
+				"enabled": true
+			},
+			"posthog-migration-test": {
+				"enabled": false
+			},
+			"notetaker-multipart": {
+				"enabled": false
+			},
+			"homepage-redesign-modal-ipc": {
+				"enabled": false
+			},
+			"ios-intro-screens-v2-assignment": {
+				"enabled": false
+			},
+			"wispr-summary-name-chips": {
+				"enabled": true
+			},
+			"android-linkedin-apps": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"survey-targeting-7e8ae6085a-custom": {
+				"enabled": true
+			},
+			"email-sign": {
+				"enabled": true,
+				"variant": "control",
+				"payload": 250
+			},
+			"ios-latest-app-version-test": {
+				"enabled": false
+			},
+			"logitech-actions": {
+				"enabled": false
+			},
+			"scratchpad-watcher": {
+				"enabled": false
+			},
+			"member-self-serve-data-export": {
+				"enabled": true
+			},
+			"desktop-team-leaderboard": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"workos-primary-returning-password-signin": {
+				"enabled": true
+			},
+			"notetaker-airpods-audio-diagnostics": {
+				"enabled": false
+			},
+			"ios-first-dictation-congrats-push": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"notetaker-consent-confirmation": {
+				"enabled": false
+			},
+			"activation-nudge-tooltip": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"wispr-contacts-global-enrichment": {
+				"enabled": true
+			},
+			"department-scoped-snippets": {
+				"enabled": false
+			},
+			"failed-paste-notification": {
+				"enabled": true
+			},
+			"consent-notice-org-dedupe": {
+				"enabled": true
+			},
+			"dictation-post-release-measure": {
+				"enabled": false
+			},
+			"member-self-serve-scoped-data-export": {
+				"enabled": false
+			},
+			"notetaker-incremental-encode": {
+				"enabled": true
+			},
+			"auto-triage-reported-meetings": {
+				"enabled": true
+			},
+			"ios-onboarding-locked-inbox-zero": {
+				"enabled": false
+			},
+			"ios-multi-step-try-dictation": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"slack-tagging": {
+				"enabled": false
+			},
+			"android-weekly-word-limit-exp": {
+				"enabled": false
+			},
+			"enable-sync-ws-subscription": {
+				"enabled": true
+			},
+			"meeting-recorder": {
+				"enabled": true,
+				"variant": "default-autostart",
+				"payload": {
+					"summaryFeedback": true,
+					"shareMeeting": true,
+					"speakerLlmAttribution": "full-aggressive",
+					"serverAudioRetention": true,
+					"live": "source",
+					"guidedTour": true,
+					"liveTranscriptCounter": false,
+					"searchPopup": false,
+					"confRoomWalkbackReachSeconds": 60,
+					"fusionTuning": {
+						"nativeHealWindowMs": 6000,
+						"ultraHighWindowMs": 2000,
+						"proofGatedUltraHolders": [
+							"zoom",
+							"teams"
+						],
+						"clickProofHolders": [
+							"zoom",
+							"teams"
+						]
+					},
+					"browserLeaveClick": "enabled",
+					"nativeAnchorShadow": true,
+					"identityRestampEnabled": true,
+					"transcriptEditing": true,
+					"bypassCloudSync": true,
+					"calendarNotice": true,
+					"consentChatMessage": false,
+					"consentChatFallback": false,
+					"splitScreen": true,
+					"liveTranslation": true,
+					"shareControls": true,
+					"consentChatMeetLegacyWalk": true,
+					"notetakerBlockedDomainsUiVisible": true,
+					"speechFreshnessEnabled": false,
+					"localAudioRetentionDays": 14,
+					"autoStartNotetaker": true,
+					"autoStartPromptThreshold": 3
+				}
+			},
+			"ios-keyboard-revamp": {
+				"enabled": false
+			},
+			"stream-text": {
+				"enabled": false
+			},
+			"sampling-rate": {
+				"enabled": true,
+				"payload": 0.0001
+			},
+			"first-meeting-auto-generate": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"ios-onboarding-desktop-download": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"auto-cleanup-v0": {
+				"enabled": false
+			},
+			"attribution-gt-chorus-seeding": {
+				"enabled": true
+			},
+			"payload-flag": {
+				"enabled": true,
+				"payload": {
+					"answer": 42,
+					"company": "Flow",
+					"success": true,
+					"nested": {
+						"layer": 1,
+						"nested": {
+							"lastLayer": true,
+							"firstLayer": false
+						}
+					}
+				}
+			},
+			"android_local_data_retention": {
+				"enabled": false
+			},
+			"notetaker-transcript-romanization-vertex": {
+				"enabled": false
+			},
+			"defer-updates-while-active": {
+				"enabled": true
+			},
+			"instruct-mode": {
+				"enabled": false
+			},
+			"wispr-contacts-freemail-enrichment": {
+				"enabled": false
+			},
+			"pylon-transcript-report-issues": {
+				"enabled": true
+			},
+			"notetaker-mic-device-clock": {
+				"enabled": false
+			},
+			"mic-ranked-preferences": {
+				"enabled": true
+			},
+			"android_post_onboarding_flow_tips": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"disable-profiling": {
+				"enabled": true
+			},
+			"public-api-key-management": {
+				"enabled": false
+			},
+			"android_a11y_ghost_in_app_update": {
+				"enabled": false
+			},
+			"android_personalization_styles_telemetry": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"ios-notetaker-pre-sign-in": {
+				"enabled": false
+			},
+			"grpc-http-race": {
+				"enabled": false
+			},
+			"android_login_complete_first_login_property": {
+				"enabled": true
+			},
+			"enable-sync-ws-preferences": {
+				"enabled": true
+			},
+			"personalized-styles-ios": {
+				"enabled": true
+			},
+			"onboarding-redesign": {
+				"enabled": true,
+				"variant": "ptt-first-less-content"
+			},
+			"event-loop-blocked-logs": {
+				"enabled": false
+			},
+			"notetaker-controls-enterprise": {
+				"enabled": true
+			},
+			"rotating-value-prop-copy": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"ios_workos_capable_auth": {
+				"enabled": false
+			},
+			"desktop-reset-tutorial": {
+				"enabled": false
+			},
+			"notetaker-business-allowed": {
+				"enabled": true
+			},
+			"june-2026-dictionary-fixes": {
+				"enabled": true,
+				"variant": "treatment"
+			},
+			"instruct-internal-data-sharing": {
+				"enabled": false
+			},
+			"Flow-State-Generation": {
+				"enabled": false
+			},
+			"onboarding-competitor-import-callout": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"audit-logs-ui": {
+				"enabled": true
+			},
+			"should_sync_notes": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"android_dictation_reliability": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"styles-notification-experiment": {
+				"enabled": true,
+				"variant": "suppress"
+			},
+			"dictation-ab-june29": {
+				"enabled": false
+			},
+			"android_tick_time_nudge_read_only": {
+				"enabled": true
+			},
+			"web-onboarding-experiment": {
+				"enabled": true,
+				"variant": "medium"
+			},
+			"meeting-recorder-classical-rescue": {
+				"enabled": true,
+				"variant": "apply_rescue_shadow_classical"
+			},
+			"dictation-ab-oct11": {
+				"enabled": false
+			},
+			"calendar-page-notetaker-nudge": {
+				"enabled": false
+			},
+			"first-meeting-nudge-copy-test": {
+				"enabled": true,
+				"variant": "notes-persist"
+			},
+			"ide-file-names-out-of-ax-context": {
+				"enabled": true
+			},
+			"can-drag-flow-bar": {
+				"enabled": true
+			},
+			"android_workos_primary": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"second-nudge-under-5": {
+				"enabled": true,
+				"variant": "showcase_auto_dismiss"
+			},
+			"billing-subscription-watch-enabled": {
+				"enabled": true
+			},
+			"fn-conflict-notice": {
+				"enabled": false
+			},
+			"attribution-items": {
+				"enabled": true,
+				"payload": [
+					{
+						"id": "word of mouth",
+						"label": "",
+						"title": "Friend / Colleague",
+						"secondaryAttributes": null
+					},
+					{
+						"id": "youtube",
+						"label": "Which YouTuber?",
+						"title": "YouTube",
+						"secondaryAttributes": [
+							{
+								"id": "legaleagle",
+								"title": "LegalEagle"
+							},
+							{
+								"id": "unbox_therapy",
+								"title": "Unbox Therapy"
+							},
+							{
+								"id": "better_ideas",
+								"title": "Better Ideas"
+							},
+							{
+								"id": "casual_finance",
+								"title": "Casual Finance"
+							},
+							{
+								"id": "appletrack",
+								"title": "AppleTrack"
+							},
+							{
+								"id": "ad",
+								"title": "An ad"
+							},
+							{
+								"id": "other",
+								"title": "Other"
+							}
+						]
+					},
+					{
+						"id": "instagram",
+						"label": "Who on Instagram?",
+						"title": "Instagram",
+						"secondaryAttributes": [
+							{
+								"id": "ali_abdaal",
+								"title": "Ali Abdaal"
+							},
+							{
+								"id": "smart_nonsense",
+								"title": "Smart Nonsense"
+							},
+							{
+								"id": "mytechceo",
+								"title": "MyTechCEO"
+							},
+							{
+								"id": "varun_mayya",
+								"title": "Varun Mayya"
+							},
+							{
+								"id": "raj_shamani",
+								"title": "Raj Shamani"
+							},
+							{
+								"id": "ad",
+								"title": "An ad"
+							},
+							{
+								"id": "other",
+								"title": "Other"
+							}
+						]
+					},
+					{
+						"id": "tiktok",
+						"label": "Who on TikTok?",
+						"title": "TikTok",
+						"secondaryAttributes": [
+							{
+								"id": "smart_nonsense",
+								"title": "Smart Nonsense"
+							},
+							{
+								"id": "ali_abdaal",
+								"title": "Ali Abdaal"
+							},
+							{
+								"id": "folasade_daini",
+								"title": "Folasade Daini"
+							},
+							{
+								"id": "mytechceo",
+								"title": "MyTechCEO"
+							},
+							{
+								"id": "woman_engineer",
+								"title": "Woman Engineer (Zara)"
+							},
+							{
+								"id": "ad",
+								"title": "An ad"
+							},
+							{
+								"id": "other",
+								"title": "Other"
+							}
+						]
+					},
+					{
+						"id": "linkedin",
+						"label": "Who on LinkedIn?",
+						"title": "LinkedIn",
+						"secondaryAttributes": [
+							{
+								"id": "sundas_khalid",
+								"title": "Sundas Khalid"
+							},
+							{
+								"id": "charlie_hills",
+								"title": "Charlie Hills"
+							},
+							{
+								"id": "jean_kang",
+								"title": "Jean Kang"
+							},
+							{
+								"id": "zach_wilson",
+								"title": "Zach Wilson"
+							},
+							{
+								"id": "ruben_hassid",
+								"title": "Ruben Hassid"
+							},
+							{
+								"id": "ad",
+								"title": "An ad"
+							},
+							{
+								"id": "other",
+								"title": "Other"
+							}
+						]
+					},
+					{
+						"id": "twitter",
+						"title": "X / Twitter",
+						"label": "",
+						"secondaryAttributes": null
+					},
+					{
+						"id": "facebook",
+						"title": "Facebook",
+						"label": "",
+						"secondaryAttributes": null
+					},
+					{
+						"id": "podcast",
+						"label": "Which podcast?",
+						"title": "Podcast",
+						"secondaryAttributes": [
+							{
+								"id": "doac",
+								"title": "Steven Bartlett (Diary of a CEO)"
+							},
+							{
+								"id": "trailblazers",
+								"title": "Trailblazers"
+							},
+							{
+								"id": "mark_manson",
+								"title": "Mark Manson"
+							},
+							{
+								"id": "all_the_hacks",
+								"title": "All the Hacks"
+							},
+							{
+								"id": "lex_fridman",
+								"title": "Lex Fridman"
+							},
+							{
+								"id": "other",
+								"title": "Other"
+							}
+						]
+					},
+					{
+						"id": "newsletter",
+						"label": "Which newsletter?",
+						"title": "Newsletter",
+						"secondaryAttributes": [
+							{
+								"id": "superhuman_ai",
+								"title": "Superhuman AI"
+							},
+							{
+								"id": "the_neuron",
+								"title": "The Neuron"
+							},
+							{
+								"id": "tldr",
+								"title": "TLDR"
+							},
+							{
+								"id": "taaft",
+								"title": "There's An AI For That"
+							},
+							{
+								"id": "open_source_ceo",
+								"title": "Open Source CEO (Bill Kerr)"
+							},
+							{
+								"id": "other",
+								"title": "Other"
+							}
+						]
+					},
+					{
+						"id": "course",
+						"title": "Course / Webinar",
+						"label": "Which one?",
+						"secondaryAttributes": [
+							{
+								"id": "outskill",
+								"title": "Outskill / Vaibhav Sisinty"
+							},
+							{
+								"id": "be10x",
+								"title": "Be10x"
+							},
+							{
+								"id": "other",
+								"title": "Other"
+							}
+						]
+					},
+					{
+						"id": "article",
+						"label": "Which article?",
+						"title": "Article / News",
+						"secondaryAttributes": [
+							{
+								"id": "The Economic Times of India",
+								"title": "The Economic Times of India"
+							},
+							{
+								"id": "Computerworld",
+								"title": "Computerworld"
+							},
+							{
+								"id": "Wall Street Journal",
+								"title": "Wall Street Journal"
+							},
+							{
+								"id": "TechCrunch",
+								"title": "TechCrunch"
+							},
+							{
+								"id": "AndroidPolice",
+								"title": "AndroidPolice"
+							},
+							{
+								"id": "other",
+								"title": "Other"
+							}
+						]
+					},
+					{
+						"id": "search_engine",
+						"label": "Which search engine?",
+						"title": "Search engine",
+						"secondaryAttributes": [
+							{
+								"id": "google",
+								"title": "Google"
+							},
+							{
+								"id": "bing",
+								"title": "Bing"
+							},
+							{
+								"id": "duckduckgo",
+								"title": "DuckDuckGo"
+							},
+							{
+								"id": "brave_search",
+								"title": "Brave Search"
+							},
+							{
+								"id": "yahoo",
+								"title": "Yahoo"
+							},
+							{
+								"id": "other",
+								"title": "Other"
+							}
+						]
+					},
+					{
+						"id": "ai_chat",
+						"label": "Which chat app?",
+						"title": "AI chat",
+						"secondaryAttributes": [
+							{
+								"id": "chatgpt",
+								"title": "ChatGPT"
+							},
+							{
+								"id": "claude",
+								"title": "Claude"
+							},
+							{
+								"id": "perplexity",
+								"title": "Perplexity"
+							},
+							{
+								"id": "gemini",
+								"title": "Gemini"
+							},
+							{
+								"id": "copilot",
+								"title": "Copilot"
+							},
+							{
+								"id": "other",
+								"title": "Other"
+							}
+						]
+					},
+					{
+						"id": "other",
+						"label": "Please specify",
+						"title": "Other",
+						"secondaryAttributes": "other"
+					}
+				]
+			},
+			"sentry-transaction-success-rate": {
+				"enabled": true,
+				"payload": {
+					"dictation.lifecycle": 0.01
+				}
+			},
+			"monthly-to-annual-desktop-nudge": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"macos-27-panel-nonactivation": {
+				"enabled": true
+			},
+			"multi-step-try-dictate-ios": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"ios_workos_migrate_primary": {
+				"enabled": false
+			},
+			"enable-sync-ws": {
+				"enabled": true
+			},
+			"notetaker-capture-time-placement": {
+				"enabled": true
+			},
+			"grpc-auth-token-refresh": {
+				"enabled": true
+			},
+			"android_monetization": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"ios-kb-enable-debug-options": {
+				"enabled": false
+			},
+			"student-plan-free": {
+				"enabled": true
+			},
+			"android_pip_accessibility_delay": {
+				"enabled": true,
+				"payload": {
+					"video_default_ms": 2000,
+					"recovery_default_ms": 700,
+					"hard_cap_ms": 3500,
+					"video_overrides": {
+						"samsung": 2500,
+						"xiaomi": 2500,
+						"oneplus": 2000
+					}
+				}
+			},
+			"onboarding-personalize": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"notetaker-folder-meeting-rules": {
+				"enabled": false
+			},
+			"shared-dictionary-approval": {
+				"enabled": false
+			},
+			"referral-invite-team-cta": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"insights-heatmap-incremental-fetch-desktop": {
+				"enabled": true
+			},
+			"extension-system": {
+				"enabled": false
+			},
+			"team-insights-roi": {
+				"enabled": true
+			},
+			"ios_work_os_enabled": {
+				"enabled": false
+			},
+			"nested-selected-text-v2": {
+				"enabled": false
+			},
+			"android_pip_onboarding_accessibility": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"homepage-redesign": {
+				"enabled": false
+			},
+			"post-short-meeting-flow-bar-nudge": {
+				"enabled": false
+			},
+			"dictation-ab-sept15": {
+				"enabled": false
+			},
+			"app-deny-list-enforcement": {
+				"enabled": false
+			},
+			"quick-summary-while-refining": {
+				"enabled": false
+			},
+			"android_dictation_cap": {
+				"enabled": false
+			},
+			"coding-cli-detection": {
+				"enabled": true
+			},
+			"notetaker-retention": {
+				"enabled": false
+			},
+			"dictation-silent-start-notice": {
+				"enabled": true
+			},
+			"price-experiment-mvp": {
+				"enabled": false
+			},
+			"language-picker-retirement-notice": {
+				"enabled": false
+			},
+			"internal-meeting-recorder-share": {
+				"enabled": false
+			},
+			"pro-team-leaderboard": {
+				"enabled": true
+			},
+			"test-new-user-elig-experiment": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"re-enable-detection-prompt": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"omit-unassigned-speaker-chips": {
+				"enabled": false
+			},
+			"enable-sync-ws-meetings": {
+				"enabled": true
+			},
+			"android_onboarding_battery_monitor": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"member-self-serve-account-deletion": {
+				"enabled": true
+			},
+			"multi-keybind-service": {
+				"enabled": false
+			},
+			"ios_workos_primary": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"my-voice": {
+				"enabled": false
+			},
+			"ios-switchback-screen": {
+				"enabled": true,
+				"variant": "test_b"
+			},
+			"notetaker-system-audio-probe": {
+				"enabled": true
+			},
+			"workos_enabled_webflow": {
+				"enabled": true
+			},
+			"notetaker-streaming-encode": {
+				"enabled": true
+			},
+			"android_tls_handshake_telemetry": {
+				"enabled": true,
+				"variant": "sample_50"
+			},
+			"summary-model-comparison": {
+				"enabled": false
+			},
+			"windows-shortcut-masking-v2": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"ax-insertion-verification-android": {
+				"enabled": false
+			},
+			"ios-notetaker-meeting-reminders": {
+				"enabled": false
+			},
+			"notetaker-enterprise-cloud-sync-bypass": {
+				"enabled": true,
+				"variant": "bypass"
+			},
+			"android-page-testimonials-v2": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"enable-sync-ws-incident-banner": {
+				"enabled": true
+			},
+			"first-real-meeting-summary-reveal": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"android_text_insertion_backspacing": {
+				"enabled": true
+			},
+			"dictation-long-backlog-recovery": {
+				"enabled": true
+			},
+			"show-intelligence-in-tiy": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"notetaker-folders": {
+				"enabled": true
+			},
+			"ios-first-dictation-nudge-push": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"tiy-hold-hotkey-modal": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"team-insights": {
+				"enabled": true
+			},
+			"about-yourself-variant": {
+				"enabled": true,
+				"variant": "testimonial"
+			},
+			"homepage-ribbon-download": {
+				"enabled": true,
+				"variant": "download"
+			},
+			"notetaker-consent-chat": {
+				"enabled": false
+			},
+			"weekly-word-limits-config": {
+				"enabled": true,
+				"payload": {
+					"schema_version": 1,
+					"defaults": {
+						"ios": {
+							"soft": 550,
+							"hard": 750
+						},
+						"android": {
+							"soft": 1000,
+							"hard": 1500
+						},
+						"desktop": {
+							"soft": 2000,
+							"hard": 5000
+						}
+					},
+					"ended_experiments": [],
+					"enrollment": {
+						"max_account_age_days": 14
+					}
+				}
+			},
+			"opus-desktop-experiment": {
+				"enabled": false
+			},
+			"notetaker-tutorial-close": {
+				"enabled": true,
+				"variant": "close-modal"
+			},
+			"ios_week_1_streak": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"android_disable_connectivity_manager": {
+				"enabled": true
+			},
+			"ios-fallback-opus": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"otter-import": {
+				"enabled": true,
+				"payload": {
+					"uploadsPerMinute": 20
+				}
+			},
+			"under5-post-meeting-banner": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"internal-data-sharing": {
+				"enabled": false
+			},
+			"ask-skills": {
+				"enabled": false
+			},
+			"onboarding-styles-setup": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"todos": {
+				"enabled": false
+			},
+			"instruct-voice": {
+				"enabled": false
+			},
+			"linkedin-apps": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"use-opus": {
+				"enabled": false
+			},
+			"ip-allowlist-android-enabled": {
+				"enabled": false
+			},
+			"quick-summary-model-config": {
+				"enabled": true,
+				"payload": {
+					"primary": {
+						"provider": "anthropic",
+						"model": "claude-haiku-5-5",
+						"effort": "low"
+					},
+					"fallback": {
+						"provider": "openai",
+						"model": "gpt-6-luna",
+						"effort": "low"
+					}
+				}
+			},
+			"android_history_text_upload": {
+				"enabled": true
+			},
+			"hinglish-picker-note": {
+				"enabled": false
+			},
+			"dictation-ab-sept24": {
+				"enabled": false
+			},
+			"trailing-boundary-nbsp": {
+				"enabled": false
+			},
+			"team-consolidation": {
+				"enabled": true,
+				"variant": "team-consolidation"
+			},
+			"ios-disable-opus": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"grpc_client_ios": {
+				"enabled": false
+			},
+			"desktop-microphone-quiz": {
+				"enabled": true,
+				"variant": "test-v2"
+			},
+			"android-grpc-jwt-freshness": {
+				"enabled": false
+			},
+			"granola-import": {
+				"enabled": true,
+				"payload": {
+					"mcpRateLimitPerMinute": 40,
+					"mcpBurstCapacity": 50,
+					"mcpRefillPerMinute": 6
+				}
+			},
+			"second-nudge-never-tried": {
+				"enabled": true,
+				"variant": "arm_b"
+			},
+			"use-staging-backend": {
+				"enabled": false
+			},
+			"kill-orphan": {
+				"enabled": true
+			},
+			"notetaker-microsoft-calendar": {
+				"enabled": true
+			},
+			"localization-framework": {
+				"enabled": true,
+				"variant": "control",
+				"payload": [
+					"de",
+					"it",
+					"es",
+					"pt"
+				]
+			},
+			"android_bubble_visibility_daily": {
+				"enabled": true,
+				"variant": "full"
+			},
+			"ios-preserve-live-activity-interruption": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"preread-feedback": {
+				"enabled": false
+			},
+			"connectors_access": {
+				"enabled": true,
+				"variant": "external",
+				"payload": {
+					"google_calendar": true,
+					"outlook_calendar": true,
+					"slack": true,
+					"gmail": false,
+					"notion": false,
+					"github": false,
+					"linear": false
+				}
+			},
+			"notetaker-l2": {
+				"enabled": false
+			},
+			"notetaker-denylist": {
+				"enabled": false
+			},
+			"android_ghost_sentry_telemetry": {
+				"enabled": false
+			},
+			"notetaker-hub-ui-improvements": {
+				"enabled": true
+			},
+			"authkit-restrict-domain-access": {
+				"enabled": false
+			},
+			"backend-auth-handoff-pkce": {
+				"enabled": false
+			},
+			"ios-time-saved-stats": {
+				"enabled": false
+			},
+			"paste-sound": {
+				"enabled": false
+			},
+			"android_defer_billing_init": {
+				"enabled": true
+			},
+			"hub-top-apps": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"desktop-trial-extension": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"voice-profile-onboarding-page": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"solo-team-invite-modal": {
+				"enabled": false
+			},
+			"dictation-audio-device-clock": {
+				"enabled": false
+			},
+			"android_paste_text_sentry_telemetry": {
+				"enabled": true
+			},
+			"cloud-sync": {
+				"enabled": true
+			},
+			"language-picker-walkthrough": {
+				"enabled": false
+			},
+			"dictation-ab-sept18": {
+				"enabled": false
+			},
+			"ios-new-trial-ended-view": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"ios-offline-dictation": {
+				"enabled": false
+			},
+			"ios-menu-usage-limit-copy": {
+				"enabled": false
+			},
+			"nudge-new-users": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"meeting-recorder-speaker-relabeler": {
+				"enabled": true,
+				"variant": "apply_gb_shadow_classical"
+			},
+			"onboarding-calendar-connect-screen-refresh": {
+				"enabled": true,
+				"variant": "new-screen"
+			},
+			"notetaker-seat-controls": {
+				"enabled": false
+			},
+			"desktop-onboarding": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"pylon-queued-issue-enrichment": {
+				"enabled": true
+			},
+			"scratchpad-cross-device-image-sync": {
+				"enabled": true
+			},
+			"first-real-meeting-email": {
+				"enabled": true
+			},
+			"online-reconcile-shard-balancing": {
+				"enabled": true
+			},
+			"zoom-import": {
+				"enabled": false
+			},
+			"system-alert-identification": {
+				"enabled": true
+			},
+			"dictation-ab-oct10": {
+				"enabled": false
+			},
+			"polish": {
+				"enabled": true,
+				"variant": "polish"
+			},
+			"enable-sync-ws-voice-profile": {
+				"enabled": true
+			},
+			"auto-detect-instruct-mode": {
+				"enabled": false
+			},
+			"team-invite-onboarding": {
+				"enabled": true,
+				"variant": "invite-onboarding"
+			},
+			"enabled-flag": {
+				"enabled": true
+			},
+			"ios-notetaker-my-voice-styles": {
+				"enabled": false
+			},
+			"test-with-external-users": {
+				"enabled": false
+			},
+			"ios-attribution-inline-other": {
+				"enabled": true
+			},
+			"first-meeting-notepad-walkthrough": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"desktop-individual-past-due-dunning": {
+				"enabled": true
+			},
+			"proactive-incident-alerts": {
+				"enabled": true
+			},
+			"student-referral-challenge": {
+				"enabled": false
+			},
+			"sync-ws-health-gated-polling": {
+				"enabled": true
+			},
+			"ble-mic-ring": {
+				"enabled": false
+			},
+			"meeting-room-evidence": {
+				"enabled": true,
+				"variant": "control",
+				"payload": {}
+			},
+			"enable-sync-ws-notifications": {
+				"enabled": true
+			},
+			"ios-remove-trial": {
+				"enabled": false
+			},
+			"ios_onboarding_install_keyboard_demo_pip": {
+				"enabled": false
+			},
+			"gamification-stats-unlock": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"org-insights": {
+				"enabled": false
+			},
+			"android_bubble_visibility_funnel": {
+				"enabled": false
+			},
+			"android-notetaker-awareness-settings-banner": {
+				"enabled": false
+			},
+			"elaborations": {
+				"enabled": true,
+				"variant": "no-explanations",
+				"payload": {
+					"explanations": {
+						"summary": false
+					}
+				}
+			},
+			"notetaker-folder-domain-rules": {
+				"enabled": false
+			},
+			"dictation-orchestrator": {
+				"enabled": false
+			},
+			"instruct-models": {
+				"enabled": true,
+				"variant": "v2",
+				"payload": {
+					"classifier": "gpt-5.5",
+					"instruct": "gpt-oss-120b",
+					"modelIsUnsure": "gpt-oss-120b",
+					"settingsUpdates": "gpt-oss-120b"
+				}
+			},
+			"accessibility-drag-guidance": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"android_mic_permission_sheet_sentry_telemetry": {
+				"enabled": true
+			},
+			"notetaker-transcript-romanization": {
+				"enabled": true
+			},
+			"notetaker-share-notifications": {
+				"enabled": false
+			},
+			"degraded-network-notification": {
+				"enabled": true
+			},
+			"ios26": {
+				"enabled": true
+			},
+			"windows-mouse-onboarding": {
+				"enabled": false
+			},
+			"annotation-reminder-dms": {
+				"enabled": true,
+				"payload": {
+					"min_meetings": 1
+				}
+			},
+			"ios26dot4-switchback-screen": {
+				"enabled": true,
+				"variant": "test",
+				"payload": {
+					"bottom-message": "We wish you didn't have to switch apps to use Flow, but Apple now requires this to activate the microphone."
+				}
+			},
+			"notetaker-tutorial-intro": {
+				"enabled": true,
+				"variant": "short-intro"
+			},
+			"ios-cross-device-onboarding": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"android_auth_signal_sentry_telemetry": {
+				"enabled": true
+			},
+			"notetaker-drawer-hover-open": {
+				"enabled": false
+			},
+			"meeting-refine-transcription-provider": {
+				"enabled": false
+			},
+			"ios-updated-intro-screens-v2": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"scim-session-revocation": {
+				"enabled": true
+			},
+			"notetaker-report-inline-transcript": {
+				"enabled": false
+			},
+			"notetaker-chat-config": {
+				"enabled": true,
+				"variant": "default",
+				"payload": {
+					"l2": {
+						"fallback": {
+							"kind": "anthropic_messages",
+							"model": "claude-sonnet-5-5",
+							"effort": "low"
+						},
+						"primary": {
+							"kind": "openai_responses",
+							"model": "gpt-6-luna",
+							"reasoning": "none"
+						}
+					},
+					"drawer": {
+						"fallback": {
+							"kind": "anthropic_messages",
+							"model": "claude-sonnet-5-5",
+							"effort": "low"
+						},
+						"primary": {
+							"kind": "openai_responses",
+							"model": "gpt-6-luna",
+							"reasoning": "none"
+						}
+					}
+				}
+			},
+			"ios-linkedin-apps": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"fn-hardware-fallback": {
+				"enabled": false
+			},
+			"android_text_insertion_ime_reacquire": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"polish-provider": {
+				"enabled": true,
+				"variant": "fast",
+				"payload": {
+					"provider": {
+						"kind": "race",
+						"deadline_seconds": 0,
+						"providers": [
+							{
+								"provider": {
+									"kind": "openai",
+									"model": "gpt-5-nano"
+								}
+							},
+							{
+								"provider": {
+									"kind": "cerebras",
+									"model": "gpt-oss-120b"
+								}
+							}
+						]
+					}
+				}
+			},
+			"focus-change-detector-app-change": {
+				"enabled": true
+			},
+			"onboarding-language-suggestions": {
+				"enabled": true,
+				"variant": "treatment"
+			},
+			"notetaker-capture-recovery": {
+				"enabled": true
+			},
+			"android_five_min_warning": {
+				"enabled": true
+			},
+			"ios-kb-debug-log": {
+				"enabled": false
+			},
+			"dictionary-phrase-learning": {
+				"enabled": false
+			},
+			"network-policy-block-notification": {
+				"enabled": false
+			},
+			"remote-viewer-paste": {
+				"enabled": false
+			},
+			"android-weekly-summary-push": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"android_flow_recovery_job": {
+				"enabled": false
+			},
+			"preread-config": {
+				"enabled": true,
+				"variant": "control",
+				"payload": {
+					"enabled": false,
+					"generate_for_internal_meetings": false,
+					"cma_agent_model": "claude-sonnet-5",
+					"cma_reasoning_effort": "low",
+					"cma_agent_iterations": 1
+				}
+			},
+			"notetaker-seeded-tour-card": {
+				"enabled": true,
+				"variant": "treatment"
+			},
+			"android_accessibility_recovery_surfacing": {
+				"enabled": true
+			},
+			"wiggle-contextual-reminder": {
+				"enabled": false
+			},
+			"scratchpad": {
+				"enabled": false
+			},
+			"notetaker-recovery-modal": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"post-onboarding-auto-enable": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"notetaker-mic-switching": {
+				"enabled": false
+			},
+			"vocabulary-pack-onboarding": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"disable-clipboard-restore": {
+				"enabled": false
+			},
+			"automations": {
+				"enabled": false
+			},
+			"ios-onboarding-try-whispering": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"edge-proxy": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"is-audio-interruption-monitoring-enabled": {
+				"enabled": true
+			},
+			"android_background_session_resume": {
+				"enabled": true
+			},
+			"wispr-contacts-crustdata-enrichment": {
+				"enabled": true,
+				"payload": {
+					"personEnrichEnabled": true,
+					"callsPerMinute": 60,
+					"identifyMaxConcurrentJobs": 28,
+					"growthAndEnterpriseEnrichmentEnabled": false
+				}
+			},
+			"granola-switch-headline-v1": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"connectors": {
+				"enabled": false
+			},
+			"never-store-usage-outbox": {
+				"enabled": true
+			},
+			"dictation-silent-start-mic-reopen": {
+				"enabled": false
+			},
+			"ax-surrounding-text-null-fallback-2-android": {
+				"enabled": true
+			},
+			"ios-notetaker-ask": {
+				"enabled": true
+			},
+			"notetaker-beta-launch-modal": {
+				"enabled": false
+			},
+			"android_onboarding_battery_screen": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"desktop-workos-session-migration": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"student-tailored": {
+				"enabled": true
+			},
+			"trial-page-redesign": {
+				"enabled": true,
+				"variant": "redesign"
+			},
+			"ios26-default-styles": {
+				"enabled": true,
+				"variant": "test",
+				"payload": {
+					"animation": "variantA"
+				}
+			},
+			"post-onboarding": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"ios_auth_handoff_pkce": {
+				"enabled": false
+			},
+			"flow-enterprise-sentry-sample-rates": {
+				"enabled": true,
+				"payload": {
+					"tracesSampleRate": 0.2,
+					"replaysSessionSampleRate": 0.1,
+					"replaysOnErrorSampleRate": 1
+				}
+			},
+			"admin-attribution-viewer": {
+				"enabled": false
+			},
+			"wispr-meeting-identity": {
+				"enabled": true,
+				"payload": {
+					"contacts_in_prompt": false,
+					"max_contacts": 30,
+					"min_relevance_score": 3,
+					"include_profile_fields": false
+				}
+			},
+			"android_word_limit_dictation_gate": {
+				"enabled": true
+			},
+			"cursor-integration": {
+				"enabled": false
+			},
+			"notetaker-disc-hint": {
+				"enabled": false
+			},
+			"ios-polish": {
+				"enabled": false
+			},
+			"mcp-login-workos-capable": {
+				"enabled": false
+			},
+			"flowbar-processing": {
+				"enabled": false
+			},
+			"shift-insert": {
+				"enabled": true
+			},
+			"app-teams-settings": {
+				"enabled": true
+			},
+			"gpu-crash-guard": {
+				"enabled": true
+			},
+			"domain-capture": {
+				"enabled": false
+			},
+			"post-short-meeting-calendar-connect-modal": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"notetaker-recipient-personal-action-items": {
+				"enabled": false
+			},
+			"gen-z-style": {
+				"enabled": false
+			},
+			"notetaker-audio-switching": {
+				"enabled": false
+			},
+			"long_dictation_notetaker_prompt": {
+				"enabled": true,
+				"variant": "v1a"
+			},
+			"notetaker-setup-tray": {
+				"enabled": false
+			},
+			"ios-attribution-randomized-order": {
+				"enabled": true
+			},
+			"kill-detached-helper": {
+				"enabled": false
+			},
+			"enterprise-scratchpad-control": {
+				"enabled": false
+			},
+			"android_onboarding_tiy_PTT_revamp": {
+				"enabled": false
+			},
+			"tiy-onboarding-toasts": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"ios-helium-paywall": {
+				"enabled": false
+			},
+			"wispr-chain-via-aria-web": {
+				"enabled": true
+			},
+			"is-async-helper-write-queue-enabled": {
+				"enabled": true
+			},
+			"wispr-contacts-internal-crustdata-enrichment": {
+				"enabled": false
+			},
+			"ios_notetaker_network_telemetry": {
+				"enabled": false
+			},
+			"show-time-savings-in-onboarding": {
+				"enabled": true,
+				"variant": "time-savings"
+			},
+			"ios-turtle-mode": {
+				"enabled": false
+			},
+			"instruct-mode-experiment": {
+				"enabled": false
+			},
+			"android_text_insertion_v3": {
+				"enabled": false
+			},
+			"pylon-queued-member-removals": {
+				"enabled": true
+			},
+			"ios_contacts_import": {
+				"enabled": false
+			},
+			"android_accessibility_cold_start_recovery": {
+				"enabled": true
+			},
+			"ios-notetaker-search": {
+				"enabled": true
+			},
+			"style-personalization": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"notetaker-audio-settings": {
+				"enabled": true
+			},
+			"summary-prompt-caching": {
+				"enabled": true
+			},
+			"ios-desktop-download-nudge-home-card": {
+				"enabled": false
+			},
+			"android_login_complete_sign_in_gate": {
+				"enabled": true
+			},
+			"try-flow": {
+				"enabled": true,
+				"variant": "variant_1"
+			},
+			"ios-weekly-word-limit-exp": {
+				"enabled": false
+			},
+			"smart-format-mini-success": {
+				"enabled": true,
+				"variant": "big_first_mini_multiple"
+			},
+			"windows-key-up-simulation": {
+				"enabled": false
+			},
+			"desktop-workos-capable-auth": {
+				"enabled": true
+			},
+			"proxy-geo-routing": {
+				"enabled": true
+			},
+			"enable-sync-ws-notes": {
+				"enabled": true
+			},
+			"smart-polling": {
+				"enabled": true
+			},
+			"dictation-ab-oct7": {
+				"enabled": false
+			},
+			"note-taker-coming-soon": {
+				"enabled": true
+			},
+			"ios-helium-aa-test": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"android_auth_storage_sentry_telemetry": {
+				"enabled": true
+			},
+			"android_onboarding_language_suggestions": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"in-app-ai-chatbot-nudge": {
+				"enabled": false
+			},
+			"ios-weekly-summary-push": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"enable-sync-ws-calendar": {
+				"enabled": true
+			},
+			"desktop-weekly-word-limit-exp": {
+				"enabled": false
+			},
+			"department-scoped-dictionary": {
+				"enabled": false
+			},
+			"auto-polish-on-short-text": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"android_a11y_ghost_recovery": {
+				"enabled": false
+			},
+			"windows-caps-lock-shortcut": {
+				"enabled": true,
+				"variant": "caps_lock_choice"
+			},
+			"android_text_insertion_clipboard": {
+				"enabled": true
+			},
+			"android_dictation_instant_start": {
+				"enabled": false
+			},
+			"show-first-dictation-notification": {
+				"enabled": true
+			},
+			"ios_post_onboarding_try_flow_in_apps": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"android_audio_backend_storage": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"multi-key-shortcut-copy": {
+				"enabled": false
+			},
+			"member-self-serve-usage-data-erasure": {
+				"enabled": true
+			},
+			"android_dictation_start_latency": {
+				"enabled": true,
+				"variant": "test"
+			},
+			"grpc-desktop-rollout": {
+				"enabled": true,
+				"variant": "grpcBaseten",
+				"payload": {
+					"url": "model-v31pl413.grpc.api.baseten.co"
+				}
+			},
+			"dictation-ab-august13": {
+				"enabled": false
+			},
+			"meeting-recorder-windows-acting": {
+				"enabled": false
+			},
+			"skip-url-search": {
+				"enabled": false
+			},
+			"rich-text-snippets": {
+				"enabled": true
+			},
+			"notetaker-upload-progress": {
+				"enabled": true
+			},
+			"resurrected-user-flow": {
+				"enabled": true,
+				"variant": "resurrected"
+			},
+			"android_audio_sharing_telemetry": {
+				"enabled": true
+			},
+			"android_work_os_enabled": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"student-plan-free-e2e-test": {
+				"enabled": false
+			},
+			"use-candidate-asr": {
+				"enabled": false
+			},
+			"remote-notifications": {
+				"enabled": true
+			},
+			"desktop-feature-flags-disk-cache": {
+				"enabled": true
+			},
+			"dark-mode": {
+				"enabled": true
+			},
+			"dictation-ab-sept20": {
+				"enabled": false
+			},
+			"ios-onboarding-try-whispering-improvements": {
+				"enabled": true
+			},
+			"android_launch_remote_config": {
+				"enabled": true,
+				"payload": {
+					"config_version": "2.5.2",
+					"force_update_version": "2.5.2"
+				}
+			},
+			"android-attribution-inline-other": {
+				"enabled": true,
+				"variant": "control"
+			},
+			"grpc-iOS-Rollout": {
+				"enabled": true,
+				"variant": "grpcBaseten",
+				"payload": {
+					"url": "model-v31pl413.grpc.api.baseten.co"
+				}
+			}
+		}
+	}
+}
