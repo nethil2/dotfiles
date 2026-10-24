@@ -1,26 +1,41 @@
-# Nethil2 MacOS
+# Nethil2 MacOs
 
 <p align="center">
   <img src="assets/desktop-1.png" width="49%" />
   <img src="assets/desktop-2.png" width="49%" />
 </p>
 
-This repo is a complete snapshot of my macOS setup so I (or random people) can recreate it on a new MacBook.
+This repo is a complete snapshot of my macOS setup so I can recreate it on a new MacBook.
 
-## 1) Install Homebrew
+## Quick install (recommended)
+
+```sh
+git clone --recurse-submodules https://github.com/nethil2/dotfiles
+cd dotfiles
+./install.sh
+```
+
+The installer installs Homebrew (if missing), installs all formulae/casks, symlinks configs from `dotfiles/` into `~/.config` and app support dirs, builds SbarLua, and starts services.
+
+## Manual steps (if you prefer)
+
+<details>
+<summary>Click to expand manual installation</summary>
+
+### 1) Install Homebrew
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-For Apple Silicon, make sure Homebrew is in your PATH (add to your shell profile if needed):
+For Apple Silicon, make sure Homebrew is in your PATH:
 
 ```sh
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-## 2) Install all packages (formulae + casks)
+### 2) Install all packages
 
 ```sh
 # Taps
@@ -43,85 +58,37 @@ brew install --cask alacritty omniwm zen wispr-flow vorssaint \
   microsoft-outlook
 ```
 
-### Manual apps (not always in Homebrew)
+### Manual apps
 
 - Alfred 5 — https://www.alfredapp.com/
 - CleanShot X — https://cleanshot.com/
-- RemoveMacAI — already included via formulae `removemacai` if available
 
-## 3) Clone this repo
+### 3) Clone and symlink
 
 ```sh
 git clone --recurse-submodules https://github.com/nethil2/dotfiles
 cd dotfiles
+./scripts/link.sh
 ```
 
-## 4) Copy all configs
+### 4) Build deps & start services
 
 ```sh
-# Link/copy dotfiles to ~/.config
-mkdir -p ~/.config ~/.local/share ~/.local/bin
-cp -r dotfiles/alacritty/* ~/.config/alacritty/ 2>/dev/null || mkdir -p ~/.config/alacritty && cp -r dotfiles/alacritty/* ~/.config/alacritty/
-cp -r dotfiles/btop/* ~/.config/btop/
-cp -r dotfiles/cava/* ~/.config/cava/
-mkdir -p ~/.config/fish
-cp dotfiles/fish/config.fish ~/.config/fish/ 2>/dev/null
-cp -r dotfiles/fish/* ~/.config/fish/ 2>/dev/null
-mkdir -p ~/.config/karabiner
-cp dotfiles/karabiner/karabiner.json ~/.config/karabiner/
-mkdir -p ~/.config/macchina
-cp -r dotfiles/macchina/* ~/.config/macchina/
-mkdir -p ~/.config/omniwm
-cp -r dotfiles/omniwm/* ~/.config/omniwm/
-mkdir -p ~/.config/opencode
-cp -r dotfiles/opencode/* ~/.config/opencode/
-mkdir -p ~/.config/sketchybar
-cp -r dotfiles/sketchybar/* ~/.config/sketchybar/
-mkdir -p ~/.config/skhd
-cp -r dotfiles/skhd/* ~/.config/skhd/
-mkdir -p ~/.config/yabai
-cp -r dotfiles/yabai/* ~/.config/yabai/
-```
-
-## 5) Restore app preferences
-
-```sh
-# Alfred
-mkdir -p ~/Library/Application\ Support/Alfred ~/Library/Preferences
-cp dotfiles/alfred/com.runningwithcrayons.Alfred*.plist ~/Library/Preferences/ 2>/dev/null
-cp -r dotfiles/alfred/* ~/Library/Application\ Support/Alfred/ 2>/dev/null
-
-# CleanShot X
-mkdir -p ~/Library/Application\ Support/CleanShot
-cp -r dotfiles/cleanshot/* ~/Library/Application\ Support/CleanShot/ 2>/dev/null
-
-# OmniWM app support (if present)
-mkdir -p ~/Library/Application\ Support/com.barut.OmniWM
-cp -r dotfiles/omniwm-app/* ~/Library/Application\ Support/com.barut.OmniWM/ 2>/dev/null
-
-# Wispr Flow
-mkdir -p ~/Library/Application\ Support/Wispr\ Flow
-cp -r dotfiles/wispr-flow/* ~/Library/Application\ Support/Wispr\ Flow/ 2>/dev/null
-```
-
-## 6) Build deps & start services
-
-```sh
-# SbarLua for SketchyBar
 (git clone https://github.com/FelixKratz/SbarLua.git /tmp/SbarLua && cd /tmp/SbarLua/ && make install && rm -rf /tmp/SbarLua/)
-
-# Make scripts executable
 chmod +x ~/.config/sketchybar/sketchybarrc ~/.config/skhd/*.sh 2>/dev/null
-
-# Start services
 open -a OmniWM
 brew services start sketchybar
 skhd --start-service
 ```
 
-## 7) Permissions
+</details>
+
+## Permissions
 
 Grant **Accessibility** access to: OmniWM, SketchyBar, skhd, Alfred, CleanShot X in  
-**System Settings > Privacy & Security > Accessibility**.
+**System Settings > Privacy & Security > Accessibility**. Add them to **Login Items & Extensions** if desired.
 
-Also add them to **Login Items & Extensions** if you want them on startup.
+## Notes
+
+- Configs are symlinked from `dotfiles/` so local changes sync directly to the repo.
+- SketchyBar is a git submodule pointing to [nethil2/sketchybar](https://github.com/nethil2/sketchybar). Clone with `--recurse-submodules`.
