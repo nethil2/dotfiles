@@ -41,12 +41,7 @@ brew install --cask alacritty omniwm zen wispr-flow vorssaint \
 ### Manual apps (not always in Homebrew)
 
 - Alfred 5 — https://www.alfredapp.com/
-- Alcove — Mac App Store
 - CleanShot X — https://cleanshot.com/
-- Droppy — Mac App Store
-- Glance — Mac App Store
-- Seam — Mac App Store
-- Sound Show 2 — Mac App Store
 - RemoveMacAI — already included via formulae `removemacai` if available
 
 ## 3) Clone this repo
@@ -79,8 +74,6 @@ mkdir -p ~/.config/sketchybar
 cp -r dotfiles/sketchybar/* ~/.config/sketchybar/
 mkdir -p ~/.config/skhd
 cp -r dotfiles/skhd/* ~/.config/skhd/
-mkdir -p ~/.config/vicinae
-cp -r dotfiles/vicinae/* ~/.config/vicinae/
 mkdir -p ~/.config/yabai
 cp -r dotfiles/yabai/* ~/.config/yabai/
 ```
