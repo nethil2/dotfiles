@@ -3,10 +3,6 @@
 
 Made with OmniWM, SketchyBar, JankyBorders, and more...
 
-<img width="1238" height="800" alt="desktop-1-800-sharp" src="https://github.com/user-attachments/assets/170fb02f-9477-4d86-96ea-c67dbc1a3394" />
-<img width="1238" height="800" alt="desktop-2-800-sharp" src="https://github.com/user-attachments/assets/ed51d5f6-c73a-4261-8e5c-42acf669c10a" />
-<img width="1920" height="854" alt="real-life-txt" src="https://github.com/user-attachments/assets/2a580899-709e-4142-b07f-83ee5477b195" />
-
 ## Dependencies
 
 You might need to run `brew update` and `brew upgrade` first.
@@ -29,7 +25,7 @@ brew install --cask alacritty omniwm albert \
 ```sh
 # clone this repo
 git clone --recurse-submodules https://github.com/pgkyg79f6w-blip/dotfiles
-cd dots-macos
+cd dotfiles
 
 # copy config
 mkdir -p ~/.config
