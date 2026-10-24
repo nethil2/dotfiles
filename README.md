@@ -1,6 +1,6 @@
 # nethil2 MacOS
 
-Made with OmniWM, SketchyBar, JankyBorders, and more...
+Made with OmniWM, SketchyBar, Alfred and more
 
 ## Dependencies
 
